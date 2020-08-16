@@ -1,0 +1,57 @@
+.wd-post__content {
+  .wd-post__body {
+    .wp-block-cover {
+
+    }
+    p {
+      margin: 28px 0;
+      font-size: 16px;
+      strong, b{
+        font-weight: 600;
+      }
+    }
+    .has-large-font-size {
+      font-size: 36px;
+    }
+    .has-regular-font-size {
+      font-size: 16px;
+    }
+    .has-small-font-size {
+      font-size: 13px;
+    }
+    .wp-block-image {
+      figcaption {
+        font-size: 13px;
+        text-align: center;
+      }
+    }
+    .wp-block-separator {
+      max-width: 100px;
+      border-bottom-width: 2px;
+      color: #8f98a1;
+    }
+    .wp-block-quote {
+      cite {
+        display: block;
+        font-size: 11px;
+        font-weight: bold;
+        color: #555;
+        font-family: "Martel Sans";
+        padding-left: 25px;
+        text-transform: capitalize;
+        &::before {
+          content: "\2014 \0020";
+        }
+      }
+      .wp-block-pullquote blockquote p {
+        font-style: italic;
+      }
+      .wp-block-pullquote{
+        p::after {
+          content: "";
+          display: none;
+        }
+      }
+    }
+  }
+}

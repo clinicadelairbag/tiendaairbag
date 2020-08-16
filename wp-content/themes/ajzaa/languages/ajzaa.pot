@@ -1,0 +1,3633 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-21 12:41+0100\n"
+"PO-Revision-Date: 2018-10-24 18:50+0\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;_e;__e;esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: 404.php:7
+msgid "OHH!! PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help "
+"or go back to "
+msgstr ""
+
+#: 404.php:9
+msgid "Homepage"
+msgstr ""
+
+#: 404.php:14 search.php:34
+msgid "Search..."
+msgstr ""
+
+#: 404.php:15 search.php:35
+msgid "Search"
+msgstr ""
+
+#: comments.php:14
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: comments.php:57
+msgid "&larr; Older comments"
+msgstr ""
+
+#: comments.php:58
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: comments.php:76
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: content-audio.php:19 content-gallery.php:33 content-video.php:19
+#: content.php:21 search.php:22
+msgid "Continue"
+msgstr ""
+
+#: footer.php:33
+msgid "Privacy policy"
+msgstr ""
+
+#: footer.php:34
+msgid "Accept"
+msgstr ""
+
+#: footer.php:99
+msgid "search for part"
+msgstr ""
+
+#: footer.php:107
+msgid "Select Brand..."
+msgstr ""
+
+#: footer.php:124
+msgid "Select Model..."
+msgstr ""
+
+#: footer.php:129
+msgid "Select Year..."
+msgstr ""
+
+#: footer.php:133
+msgid "search"
+msgstr ""
+
+#: functions.php:80
+msgid "Home - "
+msgstr ""
+
+#: functions.php:112
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:118
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:124
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:130
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:136
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:142
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: functions.php:144
+msgid "Appears on the shop page of your website."
+msgstr ""
+
+#: functions.php:149
+msgid "OffCanvas Sidebar"
+msgstr ""
+
+#: functions.php:155
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: functions.php:168
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:169 inc/vcomposer/vc_elements/vc_video.php:79
+#: inc/vcomposer/vc_elements/wd-portfolio.php:474
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:119
+msgid "Right"
+msgstr ""
+
+#: functions.php:170
+msgid "Topbar"
+msgstr ""
+
+#: functions.php:171
+msgid "Categories Menu"
+msgstr ""
+
+#: functions.php:174
+msgid "Footer"
+msgstr ""
+
+#: functions.php:502
+msgid "Cars Models :"
+msgstr ""
+
+#: functions.php:541
+msgid "Models"
+msgstr ""
+
+#: functions.php:571
+msgid "Years"
+msgstr ""
+
+#: inc/customizer/class-customizer-controls-wd.php:58 inc/panel.php:696
+#: inc/panel.php:818 inc/panel.php:902 inc/panel.php:1025 inc/panel.php:1236
+#: inc/vcomposer/vc_elements/wd-banner.php:56
+#: inc/vcomposer/vc_elements/wd-banner.php:90
+#: inc/vcomposer/vc_elements/wd-banner.php:116
+#: inc/vcomposer/vc_elements/wd-blog.php:171
+#: inc/vcomposer/vc_elements/wd-blog.php:188
+#: inc/vcomposer/vc_elements/wd-blog.php:257
+#: inc/vcomposer/vc_elements/wd-blog.php:274
+#: inc/vcomposer/vc_elements/wd-blog.php:344
+#: inc/vcomposer/vc_elements/wd-blog.php:361
+#: inc/vcomposer/vc_elements/wd-blog.php:430
+#: inc/vcomposer/vc_elements/wd-blog.php:447
+#: inc/vcomposer/vc_elements/wd-count_up.php:71
+#: inc/vcomposer/vc_elements/wd-count_up.php:98
+#: inc/vcomposer/vc_elements/wd-count_up.php:159
+#: inc/vcomposer/vc_elements/wd-count_up.php:186
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:128
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:145
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:208
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:225
+#: inc/vcomposer/vc_elements/wd-headings.php:145
+#: inc/vcomposer/vc_elements/wd-headings.php:180
+#: inc/vcomposer/vc_elements/wd-headings.php:231
+#: inc/vcomposer/vc_elements/wd-headings.php:266
+#: inc/vcomposer/vc_elements/wd-list.php:63
+#: inc/vcomposer/vc_elements/wd-list.php:115
+#: inc/vcomposer/vc_elements/wd-list.php:132
+#: inc/vcomposer/vc_elements/wd-models.php:56
+#: inc/vcomposer/vc_elements/wd-models.php:90
+#: inc/vcomposer/vc_elements/wd-portfolio.php:311
+#: inc/vcomposer/vc_elements/wd-portfolio.php:329
+#: inc/vcomposer/vc_elements/wd-portfolio.php:406
+#: inc/vcomposer/vc_elements/wd-portfolio.php:424
+#: inc/vcomposer/vc_elements/wd-portfolio.php:521
+#: inc/vcomposer/vc_elements/wd-portfolio.php:539
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:107
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:124
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:195
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:212
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:282
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:299
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:370
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:387
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:458
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:475
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:546
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:563
+#: inc/vcomposer/vc_elements/wd-team_member.php:221
+#: inc/vcomposer/vc_elements/wd-team_member.php:239
+#: inc/vcomposer/vc_elements/wd-team_member.php:328
+#: inc/vcomposer/vc_elements/wd-team_member.php:346
+#: inc/vcomposer/vc_elements/wd-team_member.php:422
+#: inc/vcomposer/vc_elements/wd-team_member.php:440
+#: inc/vcomposer/vc_elements/wd-team_member.php:542
+#: inc/vcomposer/vc_elements/wd-team_member.php:560
+#: inc/vcomposer/vc_elements/wd-team_member.php:578
+#: inc/vcomposer/vc_elements/wd-team_member.php:592
+#: inc/vcomposer/vc_elements/wd-team_member.php:680
+#: inc/vcomposer/vc_elements/wd-team_member.php:698
+#: inc/vcomposer/vc_elements/wd-testimonial.php:142
+#: inc/vcomposer/vc_elements/wd-testimonial.php:159
+#: inc/vcomposer/vc_elements/wd-testimonial.php:242
+#: inc/vcomposer/vc_elements/wd-testimonial.php:259
+#: inc/vcomposer/vc_elements/wd-testimonial.php:328
+#: inc/vcomposer/vc_elements/wd-testimonial.php:345
+#: inc/vcomposer/vc_elements/wd-text_icon.php:185
+#: inc/vcomposer/vc_elements/wd-text_icon.php:212
+#: inc/vcomposer/vc_elements/wd-text_icon.php:277
+#: inc/vcomposer/vc_elements/wd-text_icon.php:306
+#: inc/vcomposer/vc_elements/wd-text_icon.php:369
+#: inc/vcomposer/vc_elements/wd-text_icon.php:396
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:17
+msgid "ajzaa options"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:20 inc/panel.php:306
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:23
+msgid "Colors Settings"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:26
+msgid "Social Icons Settings"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:29
+msgid "Custom CSS & JS"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:32 inc/panel.php:311
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_colors.php:20
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_colors.php:26
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_colors.php:32
+msgid "Navigation Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_colors.php:38
+msgid "Navigation Text Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_colors.php:44
+msgid "Top Header Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_colors.php:50
+msgid "Top Header Text Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_custom_css_js.php:20
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_custom_css_js.php:25
+msgid "Put your style here"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_custom_css_js.php:29
+#: inc/panel.php:1308
+msgid "Custom JavaScript"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_custom_css_js.php:34
+msgid "Put your JavaScript here"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:20
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:31
+#: inc/panel.php:1325
+msgid "Footer columns"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:24
+msgid "1 Column"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:25
+msgid "2 columns (1/2 + 1/2)"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:26
+msgid "2 columns (1/3 + 2/3)"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:27
+msgid "2 columns (2/3 + 1/3)"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:28
+msgid "3 columns"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:34
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_footer.php:39
+msgid "Footer copyright text"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_general.php:20
+msgid "Logo Link"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_general.php:27
+#: inc/panel.php:339
+msgid "Background Title Bar for Single Post"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:20
+msgid "Show Top Bar"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:26
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:31
+msgid "Your Facebook Page Link"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:35
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:40
+msgid "Your Twitter Page Link"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:44
+msgid "Google+"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:49
+msgid "Your Google+ Page Link"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:53
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:58
+msgid "Your Phone number"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:62
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-ajzaa_social_icons.php:67
+msgid "Your first Address"
+msgstr ""
+
+#: inc/mega-menu.php:133
+msgid "display icone"
+msgstr ""
+
+#: inc/mega-menu.php:144
+msgid "Mega Menu (Background image)"
+msgstr ""
+
+#: inc/mega-menu.php:155
+msgid "Mega Menu (classic)"
+msgstr ""
+
+#: inc/panel.php:248
+msgid "Configuration updated!!"
+msgstr ""
+
+#: inc/panel.php:300
+msgid "Webdevia theme options"
+msgstr ""
+
+#: inc/panel.php:307
+msgid "Color Settings"
+msgstr ""
+
+#: inc/panel.php:308
+msgid "Address Bar"
+msgstr ""
+
+#: inc/panel.php:309
+msgid "Fonts Settings"
+msgstr ""
+
+#: inc/panel.php:310
+msgid "Custom & JS"
+msgstr ""
+
+#: inc/panel.php:321
+msgid "Logo link"
+msgstr ""
+
+#: inc/panel.php:328 inc/panel.php:347 inc/panel.php:1390
+msgid "Upload"
+msgstr ""
+
+#: inc/panel.php:357
+msgid "Header Style:"
+msgstr ""
+
+#: inc/panel.php:361 inc/panel.php:1357
+msgid "Style 1"
+msgstr ""
+
+#: inc/panel.php:366
+msgid "Show Min Cart"
+msgstr ""
+
+#: inc/panel.php:373
+msgid "Active Smooth Scroll"
+msgstr ""
+
+#: inc/panel.php:380
+msgid "Google Map Key"
+msgstr ""
+
+#: inc/panel.php:394
+msgid "Products per page"
+msgstr ""
+
+#: inc/panel.php:421
+msgid "Primary Color:"
+msgstr ""
+
+#: inc/panel.php:431
+msgid "Secondary Color:"
+msgstr ""
+
+#: inc/panel.php:442
+msgid "Footer Background Color:"
+msgstr ""
+
+#: inc/panel.php:452
+msgid "Top Bar Gradient Background Color:"
+msgstr ""
+
+#: inc/panel.php:469
+msgid "Top Bar Text Color:"
+msgstr ""
+
+#: inc/panel.php:478
+msgid "Nav Bar Background Color:"
+msgstr ""
+
+#: inc/panel.php:488
+msgid "Nav Bar Text Color:"
+msgstr ""
+
+#: inc/panel.php:497
+msgid "Sticky Top Bar Background Color:"
+msgstr ""
+
+#: inc/panel.php:507
+msgid "Sticky Top Bar Color:"
+msgstr ""
+
+#: inc/panel.php:517
+msgid "Single Product Image Background Color:"
+msgstr ""
+
+#: inc/panel.php:528
+msgid "Toggle Color:"
+msgstr ""
+
+#: inc/panel.php:537
+msgid "Toggle background Color:"
+msgstr ""
+
+#: inc/panel.php:555
+msgid "Show Address Bar"
+msgstr ""
+
+#: inc/panel.php:561
+msgid "Header Phone Number"
+msgstr ""
+
+#: inc/panel.php:569
+msgid "Show WPML Widget"
+msgstr ""
+
+#: inc/panel.php:577
+msgid "Header E-mail"
+msgstr ""
+
+#: inc/panel.php:581
+msgid "Header Address"
+msgstr ""
+
+#: inc/panel.php:586
+msgid "Social Media"
+msgstr ""
+
+#: inc/panel.php:595
+msgid "Media Icon"
+msgstr ""
+
+#: inc/panel.php:596
+msgid "Media Link"
+msgstr ""
+
+#: inc/panel.php:604
+msgid "Select social media icon"
+msgstr ""
+
+#: inc/panel.php:648
+msgid "delete"
+msgstr ""
+
+#: inc/panel.php:657
+msgid "Add Social Media"
+msgstr ""
+
+#: inc/panel.php:673
+msgid "Main text font"
+msgstr ""
+
+#: inc/panel.php:692 inc/panel.php:898 inc/panel.php:1104
+msgid "Font family"
+msgstr ""
+
+#: inc/panel.php:712 inc/panel.php:918 inc/panel.php:1124
+msgid "Font style"
+msgstr ""
+
+#: inc/panel.php:740 inc/panel.php:946 inc/panel.php:1153
+msgid "Font weight"
+msgstr ""
+
+#: inc/panel.php:762 inc/panel.php:968 inc/panel.php:1175
+msgid "Font size"
+msgstr ""
+
+#: inc/panel.php:764
+msgid "example 4"
+msgstr ""
+
+#: inc/panel.php:774 inc/panel.php:980 inc/panel.php:1189
+msgid "Lettre Spacing"
+msgstr ""
+
+#: inc/panel.php:780 inc/panel.php:986 inc/panel.php:1195
+msgid "example 1px"
+msgstr ""
+
+#: inc/panel.php:786 inc/panel.php:992 inc/panel.php:1202
+#: inc/vcomposer/vc_elements/wd-banner.php:113
+#: inc/vcomposer/vc_elements/wd-blog.php:185
+#: inc/vcomposer/vc_elements/wd-blog.php:271
+#: inc/vcomposer/vc_elements/wd-blog.php:358
+#: inc/vcomposer/vc_elements/wd-count_up.php:95
+#: inc/vcomposer/vc_elements/wd-count_up.php:183
+#: inc/vcomposer/vc_elements/wd-headings.php:177
+#: inc/vcomposer/vc_elements/wd-headings.php:263
+#: inc/vcomposer/vc_elements/wd-list.php:129
+#: inc/vcomposer/vc_elements/wd-models.php:87
+#: inc/vcomposer/vc_elements/wd-text_icon.php:209
+#: inc/vcomposer/vc_elements/wd-text_icon.php:303
+#: inc/vcomposer/vc_elements/wd-text_icon.php:393
+msgid "Text Transform"
+msgstr ""
+
+#: inc/panel.php:793 inc/panel.php:936 inc/panel.php:999 inc/panel.php:1142
+#: inc/panel.php:1210
+msgid "normal"
+msgstr ""
+
+#: inc/panel.php:797 inc/panel.php:1003 inc/panel.php:1214
+msgid "lowercase"
+msgstr ""
+
+#: inc/panel.php:801 inc/panel.php:1007 inc/panel.php:1218
+msgid "UPPERCASE"
+msgstr ""
+
+#: inc/panel.php:806 inc/panel.php:1013 inc/panel.php:1224
+msgid "Font subsets"
+msgstr ""
+
+#: inc/panel.php:825 inc/panel.php:1031 inc/panel.php:1243
+msgid "Font weights to load"
+msgstr ""
+
+#: inc/panel.php:863 inc/panel.php:1069 inc/panel.php:1281
+msgid "Preview:"
+msgstr ""
+
+#: inc/panel.php:872 inc/panel.php:873 inc/panel.php:1078 inc/panel.php:1079
+#: inc/panel.php:1290 inc/panel.php:1291
+msgid "Sphinx of black quartz, judge my vow"
+msgstr ""
+
+#: inc/panel.php:882
+msgid "Head font family"
+msgstr ""
+
+#: inc/panel.php:940 inc/panel.php:1146
+msgid "italic"
+msgstr ""
+
+#: inc/panel.php:970 inc/panel.php:1179
+msgid "example 14px"
+msgstr ""
+
+#: inc/panel.php:1088
+msgid "Navigation font family"
+msgstr ""
+
+#: inc/panel.php:1349
+msgid "Footer Style"
+msgstr ""
+
+#: inc/panel.php:1361
+msgid "Style 2"
+msgstr ""
+
+#: inc/panel.php:1365
+msgid "Style 3"
+msgstr ""
+
+#: inc/panel.php:1369
+msgid "Style 4"
+msgstr ""
+
+#: inc/panel.php:1373 inc/vcomposer/vc_elements/wd-count_up.php:218
+#: inc/vcomposer/vc_elements/wd-text_icon.php:428
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:67
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:88
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:129
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:157
+msgid "None"
+msgstr ""
+
+#: inc/panel.php:1380
+msgid "Footer Background Image"
+msgstr ""
+
+#: inc/panel.php:1402
+msgid "Footer Copyright text"
+msgstr ""
+
+#: inc/panel.php:1412
+msgid "Show Cookies Message ?"
+msgstr ""
+
+#: inc/panel.php:1434
+msgid "Update Options"
+msgstr ""
+
+#: inc/panel.php:1472
+msgid "Select demo to import"
+msgstr ""
+
+#: inc/panel.php:1491
+msgid "Import Type"
+msgstr ""
+
+#: inc/panel.php:1493
+msgid "Please Select"
+msgstr ""
+
+#: inc/panel.php:1494
+msgid "All"
+msgstr ""
+
+#: inc/panel.php:1495 inc/vcomposer/vc_elements/wd-vc_tabs.php:16
+msgid "Content"
+msgstr ""
+
+#: inc/panel.php:1496
+msgid "Widgets"
+msgstr ""
+
+#: inc/panel.php:1497
+msgid "Options"
+msgstr ""
+
+#: inc/panel.php:1498
+msgid "Menus"
+msgstr ""
+
+#: inc/panel.php:1506
+msgid "Do you want to import media files?"
+msgstr ""
+
+#: inc/panel.php:1514
+msgid "Do you want to delete all existing menus?"
+msgstr ""
+
+#: inc/panel.php:1523
+msgid "Import"
+msgstr ""
+
+#: inc/panel.php:1533
+msgid "The import process may take some time. Please be patient."
+msgstr ""
+
+#: inc/panel.php:1550
+msgid "Important notes:"
+msgstr ""
+
+#: inc/panel.php:1552
+msgid ""
+"Please note that import process will take time needed to download all "
+"attachments from demo web site."
+msgstr ""
+
+#: inc/panel.php:1553
+msgid ""
+"If you plan to use shop, please install <b>WooCommerce</b> before you run "
+"import."
+msgstr ""
+
+#: inc/panel.php:1582
+msgid "Carpart Revsliders Import"
+msgstr ""
+
+#: inc/panel.php:1600
+msgid ""
+"Choose the import file : You can select the demo file \"zip file\" inside "
+"the folder \"wp-content\\themes\\ajzaa\\inc\\revslider_import_files\\\" "
+msgstr ""
+
+#: inc/panel.php:1607
+msgid "Note: styles templates will be updated if they exist!"
+msgstr ""
+
+#: inc/panel.php:1613
+msgid "Custom Animations:"
+msgstr ""
+
+#: inc/panel.php:1615 inc/panel.php:1620 inc/panel.php:1625
+msgid "overwrite"
+msgstr ""
+
+#: inc/panel.php:1617 inc/panel.php:1622 inc/panel.php:1627
+msgid "append"
+msgstr ""
+
+#: inc/panel.php:1618
+msgid "Custom Navigations:"
+msgstr ""
+
+#: inc/panel.php:1623
+msgid "Static Styles:"
+msgstr ""
+
+#: inc/panel.php:1629
+msgid "ignore"
+msgstr ""
+
+#: inc/panel.php:1635
+msgid "Import Slider"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:334
+#: inc/plugins/plugins.php:112
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:335
+#: inc/plugins/plugins.php:113
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:337
+#: inc/plugins/plugins.php:114
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:340
+#: inc/plugins/plugins.php:115
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:392
+#: inc/plugins/plugins.php:126
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:393
+#: inc/plugins/lib/class-tgm-plugin-activation.php:912
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2618
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:394
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3244
+#: inc/plugins/plugins.php:127
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:1019
+#: inc/plugins/lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3594
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3594
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/plugins/lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/plugins.php:33
+msgid "Webdevia main plugin"
+msgstr ""
+
+#: inc/plugins/plugins.php:44
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: inc/plugins/plugins.php:54
+msgid "Revslider"
+msgstr ""
+
+#: inc/plugins/plugins.php:64
+msgid "contact form7"
+msgstr ""
+
+#: inc/plugins/plugins.php:70
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/plugins/plugins.php:76
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: inc/plugins/plugins.php:82
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/plugins/plugins.php:88
+msgid "WooCommerce Quick View"
+msgstr ""
+
+#: inc/plugins/plugins.php:94
+msgid "Ajax Search for WooCommerce"
+msgstr ""
+
+#: inc/plugins/plugins.php:128
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/tools.php:55
+msgid "related posts"
+msgstr ""
+
+#: inc/vcomposer/extend.php:15
+msgid "CSS Animation"
+msgstr ""
+
+#: inc/vcomposer/extend.php:19 inc/vcomposer/vc_elements/wd-team_member.php:737
+msgid "No"
+msgstr ""
+
+#: inc/vcomposer/extend.php:20
+msgid "Expand In"
+msgstr ""
+
+#: inc/vcomposer/extend.php:21
+msgid "Bounce In"
+msgstr ""
+
+#: inc/vcomposer/extend.php:22
+msgid "Bounce In Down"
+msgstr ""
+
+#: inc/vcomposer/extend.php:23
+msgid "Bounce In Left"
+msgstr ""
+
+#: inc/vcomposer/extend.php:24
+msgid "Bounce In Right"
+msgstr ""
+
+#: inc/vcomposer/extend.php:25
+msgid "Bounce In Up"
+msgstr ""
+
+#: inc/vcomposer/extend.php:26
+msgid "Fade In"
+msgstr ""
+
+#: inc/vcomposer/extend.php:27
+msgid "Fade In Down"
+msgstr ""
+
+#: inc/vcomposer/extend.php:28
+msgid "Fade In Down Big"
+msgstr ""
+
+#: inc/vcomposer/extend.php:29
+msgid "Fade In Left"
+msgstr ""
+
+#: inc/vcomposer/extend.php:30
+msgid "Fade In Left Big"
+msgstr ""
+
+#: inc/vcomposer/extend.php:31
+msgid "Fade In Right"
+msgstr ""
+
+#: inc/vcomposer/extend.php:32
+msgid "Fade In Right Big"
+msgstr ""
+
+#: inc/vcomposer/extend.php:33
+msgid "Fade In Up"
+msgstr ""
+
+#: inc/vcomposer/extend.php:34
+msgid "Fade In Up Big"
+msgstr ""
+
+#: inc/vcomposer/extend.php:35
+msgid "Flip"
+msgstr ""
+
+#: inc/vcomposer/extend.php:36
+msgid "Flip In X"
+msgstr ""
+
+#: inc/vcomposer/extend.php:37
+msgid "Flip In Y"
+msgstr ""
+
+#: inc/vcomposer/extend.php:38
+msgid "Flip Out X"
+msgstr ""
+
+#: inc/vcomposer/extend.php:39
+msgid "Flip Out Y"
+msgstr ""
+
+#: inc/vcomposer/extend.php:40
+msgid "Light Speed In"
+msgstr ""
+
+#: inc/vcomposer/extend.php:41
+msgid "Light Speed Out"
+msgstr ""
+
+#: inc/vcomposer/extend.php:42
+msgid "Rotate In"
+msgstr ""
+
+#: inc/vcomposer/extend.php:43
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: inc/vcomposer/extend.php:44
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: inc/vcomposer/extend.php:45
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: inc/vcomposer/extend.php:46
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: inc/vcomposer/extend.php:47
+msgid "Slide In Up"
+msgstr ""
+
+#: inc/vcomposer/extend.php:48
+msgid "Slide In Down"
+msgstr ""
+
+#: inc/vcomposer/extend.php:49
+msgid "Slide In Left"
+msgstr ""
+
+#: inc/vcomposer/extend.php:50
+msgid "Slide In Right"
+msgstr ""
+
+#: inc/vcomposer/extend.php:51
+msgid "Zoom In "
+msgstr ""
+
+#: inc/vcomposer/extend.php:52
+msgid "Zoom In Down"
+msgstr ""
+
+#: inc/vcomposer/extend.php:53
+msgid "Zoom In Left"
+msgstr ""
+
+#: inc/vcomposer/extend.php:54
+msgid "Zoom In Right"
+msgstr ""
+
+#: inc/vcomposer/extend.php:55
+msgid "Zoom In Up"
+msgstr ""
+
+#: inc/vcomposer/extend.php:56
+msgid "Roll In"
+msgstr ""
+
+#: inc/vcomposer/extend.php:58
+msgid ""
+"Select type of animation for element to be animated when it \"enters\" the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: inc/vcomposer/extend.php:121 inc/vcomposer/vc_elements/vc_row.php:8
+#: inc/vcomposer/vc_elements/wd-button.php:21
+#: inc/vcomposer/vc_elements/wd-text_icon.php:145
+msgid "Text Color"
+msgstr ""
+
+#: inc/vcomposer/extend.php:123 inc/vcomposer/vc_elements/vc_row.php:10
+msgid "Select font color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_row.php:54
+#: inc/vcomposer/vc_elements/wd-headings.php:101
+msgid "Border Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:14
+msgid "Video mode..."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:17
+msgid "Simple video"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:18
+msgid "Full screen video"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:24
+msgid "Video link"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:27
+#, php-format
+msgid "Link to the video. More about supported formats at %s."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:34
+msgid "Thumbnail Image"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:37
+msgid "Upload or select video thumbnail image from media gallery."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:43
+msgid "Thumbnail Image resize"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:46
+msgid "select video thumbnail image size."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:52
+msgid "Video source"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:55
+msgid "Youtube"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:56
+msgid "Vimeo"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:64
+msgid "Video ID"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:74
+msgid "Label Alignment"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:77
+#: inc/vcomposer/vc_elements/wd-portfolio.php:475
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:118
+msgid "Left"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:78
+#: inc/vcomposer/vc_elements/wd-portfolio.php:473
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:120
+msgid "Center"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:87
+msgid "Modal Size (width)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:90
+msgid "Medium (60%)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:91
+msgid "Small (40%)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:92
+msgid "Tiny (30%)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:93
+msgid "Large (70%)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:94
+msgid "XLarge (95%)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:95
+msgid "Full (100%)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:103
+#: inc/vcomposer/vc_elements/wd-list.php:46
+msgid "Icon color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/vc_video.php:112
+msgid "Label background"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:6
+msgid "Banner"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:15
+#: inc/vcomposer/vc_elements/wd-text_icon.php:116
+msgid "Title Text"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:21
+msgid "Read More Text"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:27
+#: inc/vcomposer/vc_elements/wd-count_up.php:226
+#: inc/vcomposer/vc_elements/wd-headings.php:77
+#: inc/vcomposer/vc_elements/wd-hero_image.php:14
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:40
+#: inc/vcomposer/vc_elements/wd-text_icon.php:436
+msgid "Image"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:33
+#: inc/vcomposer/vc_elements/wd-blog.php:37
+#: inc/vcomposer/vc_elements/wd-text_icon.php:444
+msgid "Image Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:36
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height))."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:40
+msgid "Content Width"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:46
+msgid "Banner Link"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:53
+msgid "Title Position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:64
+msgid "Title Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:71
+msgid "Color Title between brackets"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:80
+#: inc/vcomposer/vc_elements/wd-blog.php:145
+#: inc/vcomposer/vc_elements/wd-blog.php:231
+#: inc/vcomposer/vc_elements/wd-blog.php:318
+#: inc/vcomposer/vc_elements/wd-count_up.php:61
+#: inc/vcomposer/vc_elements/wd-count_up.php:149
+#: inc/vcomposer/vc_elements/wd-headings.php:123
+#: inc/vcomposer/vc_elements/wd-headings.php:210
+#: inc/vcomposer/vc_elements/wd-list.php:90
+#: inc/vcomposer/vc_elements/wd-models.php:34
+#: inc/vcomposer/vc_elements/wd-text_icon.php:175
+#: inc/vcomposer/vc_elements/wd-text_icon.php:266
+#: inc/vcomposer/vc_elements/wd-text_icon.php:360
+msgid "Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:87
+#: inc/vcomposer/vc_elements/wd-blog.php:168
+#: inc/vcomposer/vc_elements/wd-blog.php:254
+#: inc/vcomposer/vc_elements/wd-blog.php:341
+#: inc/vcomposer/vc_elements/wd-count_up.php:68
+#: inc/vcomposer/vc_elements/wd-count_up.php:156
+#: inc/vcomposer/vc_elements/wd-headings.php:142
+#: inc/vcomposer/vc_elements/wd-headings.php:228
+#: inc/vcomposer/vc_elements/wd-list.php:112
+#: inc/vcomposer/vc_elements/wd-models.php:53
+#: inc/vcomposer/vc_elements/wd-text_icon.php:182
+#: inc/vcomposer/vc_elements/wd-text_icon.php:274
+#: inc/vcomposer/vc_elements/wd-text_icon.php:366
+msgid "Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:105
+#: inc/vcomposer/vc_elements/wd-blog.php:152
+#: inc/vcomposer/vc_elements/wd-blog.php:238
+#: inc/vcomposer/vc_elements/wd-blog.php:325
+#: inc/vcomposer/vc_elements/wd-count_up.php:86
+#: inc/vcomposer/vc_elements/wd-count_up.php:174
+#: inc/vcomposer/vc_elements/wd-headings.php:161
+#: inc/vcomposer/vc_elements/wd-headings.php:247
+#: inc/vcomposer/vc_elements/wd-list.php:97
+#: inc/vcomposer/vc_elements/wd-models.php:71
+#: inc/vcomposer/vc_elements/wd-text_icon.php:200
+#: inc/vcomposer/vc_elements/wd-text_icon.php:293
+#: inc/vcomposer/vc_elements/wd-text_icon.php:384
+msgid "Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:127
+#: inc/vcomposer/vc_elements/wd-blog.php:199
+#: inc/vcomposer/vc_elements/wd-blog.php:285
+#: inc/vcomposer/vc_elements/wd-blog.php:372
+#: inc/vcomposer/vc_elements/wd-count_up.php:109
+#: inc/vcomposer/vc_elements/wd-count_up.php:197
+#: inc/vcomposer/vc_elements/wd-headings.php:191
+#: inc/vcomposer/vc_elements/wd-headings.php:277
+#: inc/vcomposer/vc_elements/wd-list.php:143
+#: inc/vcomposer/vc_elements/wd-models.php:101
+#: inc/vcomposer/vc_elements/wd-text_icon.php:223
+#: inc/vcomposer/vc_elements/wd-text_icon.php:318
+#: inc/vcomposer/vc_elements/wd-text_icon.php:407
+msgid "Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:136
+#: inc/vcomposer/vc_elements/wd-blog.php:208
+#: inc/vcomposer/vc_elements/wd-blog.php:294
+#: inc/vcomposer/vc_elements/wd-blog.php:381
+#: inc/vcomposer/vc_elements/wd-count_up.php:118
+#: inc/vcomposer/vc_elements/wd-count_up.php:206
+#: inc/vcomposer/vc_elements/wd-headings.php:200
+#: inc/vcomposer/vc_elements/wd-headings.php:286
+#: inc/vcomposer/vc_elements/wd-list.php:152
+#: inc/vcomposer/vc_elements/wd-models.php:110
+#: inc/vcomposer/vc_elements/wd-text_icon.php:232
+#: inc/vcomposer/vc_elements/wd-text_icon.php:328
+#: inc/vcomposer/vc_elements/wd-text_icon.php:416
+msgid "Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-banner.php:144
+#: inc/vcomposer/vc_elements/wd-banner.php:146
+msgid "Box Css"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:16
+msgid "Recent From Blog"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:26
+msgid "Blog type"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:44
+msgid "Chose One Post"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:54
+msgid "Blog Post List"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:62
+msgid "Show / Hide Filter Categories"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:73
+msgid "Blog Category"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:81
+msgid "Item perpage"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:88
+msgid "Columns"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:95
+msgid "Blog Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:106
+#: inc/vcomposer/vc_elements/wd-causes.php:16
+msgid "Display Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:118
+msgid "Display Content"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:121
+msgid "Yes, Please"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:128
+msgid "Blog Title Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:161
+#: inc/vcomposer/vc_elements/wd-blog.php:247
+#: inc/vcomposer/vc_elements/wd-blog.php:334
+#: inc/vcomposer/vc_elements/wd-headings.php:170
+#: inc/vcomposer/vc_elements/wd-headings.php:256
+#: inc/vcomposer/vc_elements/wd-models.php:80
+msgid "Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:216
+#: inc/vcomposer/vc_elements/wd-blog.php:302
+#: inc/vcomposer/vc_elements/wd-blog.php:389
+#: inc/vcomposer/vc_elements/wd-headings.php:130
+#: inc/vcomposer/vc_elements/wd-headings.php:216
+#: inc/vcomposer/vc_elements/wd-list.php:160
+#: inc/vcomposer/vc_elements/wd-models.php:41
+msgid "Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:219
+#: inc/vcomposer/vc_elements/wd-blog.php:305
+#: inc/vcomposer/vc_elements/wd-blog.php:392
+#: inc/vcomposer/vc_elements/wd-blog.php:478
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:168
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:258
+#: inc/vcomposer/vc_elements/wd-headings.php:133
+#: inc/vcomposer/vc_elements/wd-headings.php:219
+#: inc/vcomposer/vc_elements/wd-list.php:163
+#: inc/vcomposer/vc_elements/wd-models.php:44
+#: inc/vcomposer/vc_elements/wd-portfolio.php:363
+#: inc/vcomposer/vc_elements/wd-portfolio.php:458
+#: inc/vcomposer/vc_elements/wd-portfolio.php:573
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:155
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:243
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:330
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:418
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:506
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:594
+#: inc/vcomposer/vc_elements/wd-team_member.php:273
+#: inc/vcomposer/vc_elements/wd-team_member.php:380
+#: inc/vcomposer/vc_elements/wd-team_member.php:474
+#: inc/vcomposer/vc_elements/wd-team_member.php:626
+#: inc/vcomposer/vc_elements/wd-team_member.php:639
+#: inc/vcomposer/vc_elements/wd-team_member.php:722
+#: inc/vcomposer/vc_elements/wd-testimonial.php:190
+#: inc/vcomposer/vc_elements/wd-testimonial.php:290
+#: inc/vcomposer/vc_elements/wd-testimonial.php:377
+msgid "Normal"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:220
+#: inc/vcomposer/vc_elements/wd-blog.php:306
+#: inc/vcomposer/vc_elements/wd-blog.php:393
+#: inc/vcomposer/vc_elements/wd-blog.php:479
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:169
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:259
+#: inc/vcomposer/vc_elements/wd-headings.php:134
+#: inc/vcomposer/vc_elements/wd-headings.php:220
+#: inc/vcomposer/vc_elements/wd-list.php:164
+#: inc/vcomposer/vc_elements/wd-models.php:45
+#: inc/vcomposer/vc_elements/wd-portfolio.php:364
+#: inc/vcomposer/vc_elements/wd-portfolio.php:459
+#: inc/vcomposer/vc_elements/wd-portfolio.php:574
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:156
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:244
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:331
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:419
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:507
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:595
+#: inc/vcomposer/vc_elements/wd-team_member.php:274
+#: inc/vcomposer/vc_elements/wd-team_member.php:381
+#: inc/vcomposer/vc_elements/wd-team_member.php:475
+#: inc/vcomposer/vc_elements/wd-team_member.php:627
+#: inc/vcomposer/vc_elements/wd-team_member.php:640
+#: inc/vcomposer/vc_elements/wd-team_member.php:723
+#: inc/vcomposer/vc_elements/wd-testimonial.php:191
+#: inc/vcomposer/vc_elements/wd-testimonial.php:291
+#: inc/vcomposer/vc_elements/wd-testimonial.php:376
+msgid "Italic"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:221
+#: inc/vcomposer/vc_elements/wd-blog.php:307
+#: inc/vcomposer/vc_elements/wd-blog.php:394
+#: inc/vcomposer/vc_elements/wd-blog.php:480
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:170
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:260
+#: inc/vcomposer/vc_elements/wd-headings.php:135
+#: inc/vcomposer/vc_elements/wd-headings.php:221
+#: inc/vcomposer/vc_elements/wd-list.php:165
+#: inc/vcomposer/vc_elements/wd-models.php:46
+#: inc/vcomposer/vc_elements/wd-portfolio.php:365
+#: inc/vcomposer/vc_elements/wd-portfolio.php:460
+#: inc/vcomposer/vc_elements/wd-portfolio.php:575
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:157
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:245
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:332
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:420
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:508
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:596
+#: inc/vcomposer/vc_elements/wd-team_member.php:275
+#: inc/vcomposer/vc_elements/wd-team_member.php:382
+#: inc/vcomposer/vc_elements/wd-team_member.php:476
+#: inc/vcomposer/vc_elements/wd-team_member.php:628
+#: inc/vcomposer/vc_elements/wd-team_member.php:641
+#: inc/vcomposer/vc_elements/wd-team_member.php:724
+#: inc/vcomposer/vc_elements/wd-testimonial.php:192
+#: inc/vcomposer/vc_elements/wd-testimonial.php:292
+#: inc/vcomposer/vc_elements/wd-testimonial.php:378
+msgid "Inherit"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:222
+#: inc/vcomposer/vc_elements/wd-blog.php:308
+#: inc/vcomposer/vc_elements/wd-blog.php:395
+#: inc/vcomposer/vc_elements/wd-blog.php:481
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:171
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:261
+#: inc/vcomposer/vc_elements/wd-headings.php:136
+#: inc/vcomposer/vc_elements/wd-headings.php:222
+#: inc/vcomposer/vc_elements/wd-list.php:166
+#: inc/vcomposer/vc_elements/wd-models.php:47
+#: inc/vcomposer/vc_elements/wd-portfolio.php:366
+#: inc/vcomposer/vc_elements/wd-portfolio.php:461
+#: inc/vcomposer/vc_elements/wd-portfolio.php:576
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:158
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:246
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:333
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:421
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:509
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:597
+#: inc/vcomposer/vc_elements/wd-team_member.php:276
+#: inc/vcomposer/vc_elements/wd-team_member.php:383
+#: inc/vcomposer/vc_elements/wd-team_member.php:477
+#: inc/vcomposer/vc_elements/wd-team_member.php:629
+#: inc/vcomposer/vc_elements/wd-team_member.php:642
+#: inc/vcomposer/vc_elements/wd-team_member.php:725
+#: inc/vcomposer/vc_elements/wd-testimonial.php:193
+#: inc/vcomposer/vc_elements/wd-testimonial.php:293
+#: inc/vcomposer/vc_elements/wd-testimonial.php:379
+msgid "Initial"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:404
+msgid "Blog Tags And Post Date Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:411
+msgid "Blog Tags And Post Date Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:420
+msgid "Blog Tags And Post Date Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:427
+msgid "Blog Tags And Post Date Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:444
+msgid "Blog Tags And Post Date Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:458
+msgid "Blog Tags And Post Date Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:467
+msgid "Blog Tags And Post Date Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-blog.php:475
+msgid "Blog Tags And Post Date Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:6
+msgid "Button"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:15
+#: inc/vcomposer/vc_elements/wd-models.php:120
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:66
+msgid "Button Text"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:27
+msgid "Hover Text Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:33
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:71
+msgid "Button Link"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:38
+#: inc/vcomposer/vc_elements/wd-count_up.php:18
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:29
+#: inc/vcomposer/vc_elements/wd-headings.php:59
+#: inc/vcomposer/vc_elements/wd-models.php:23
+#: inc/vcomposer/vc_elements/wd-text_icon.php:14
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:122
+msgid "Alignment"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:46
+msgid "Button Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:59
+msgid "Button Radius"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:69
+#: inc/vcomposer/vc_elements/wd-button.php:85
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:93
+msgid "Hover Background Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:100
+#: inc/vcomposer/vc_elements/wd-text_icon.php:42
+msgid "Icon Position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:112
+#: inc/vcomposer/vc_elements/wd-count_up.php:233
+#: inc/vcomposer/vc_elements/wd-text_icon.php:425
+#: inc/vcomposer/vc_elements/wd-text_icon.php:453
+msgid "Icon"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:118
+#: inc/vcomposer/vc_elements/wd-count_up.php:239
+#: inc/vcomposer/vc_elements/wd-list.php:41
+#: inc/vcomposer/vc_elements/wd-text_icon.php:459
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:123
+msgid "Button Border"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:133
+msgid "Button Border Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-button.php:142
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-car_suppliers.php:4
+msgid "Car Suppliers"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-causes.php:7
+msgid "Wd Causes"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:7
+msgid "Wd Clients"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:16
+msgid "Images"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:22
+#: inc/vcomposer/vc_elements/wd-portfolio.php:47
+#: inc/vcomposer/vc_elements/wd-team_member.php:17
+#: inc/vcomposer/vc_elements/wd-testimonial.php:21
+msgid "Layout Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:29
+#: inc/vcomposer/vc_elements/wd-portfolio.php:253
+msgid "Navigation Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:37
+#: inc/vcomposer/vc_elements/wd-team_member.php:170
+msgid "Elements To Swipe"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:44
+msgid "Items To Display in Mobile"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:50
+msgid "Items To Display in Tablet"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:56
+msgid "Items To Display in Desktop"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:64
+#: inc/vcomposer/vc_elements/wd-team_member.php:25
+msgid "Columns number in Mobile"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:70
+#: inc/vcomposer/vc_elements/wd-team_member.php:31
+msgid "Columns number in Tablet"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-clients.php:76
+#: inc/vcomposer/vc_elements/wd-team_member.php:37
+msgid "Columns number in Desktop"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:9
+msgid "Count UP"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:27
+#: inc/vcomposer/vc_elements/wd-headings.php:50
+msgid "Layout"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:39
+#: inc/vcomposer/vc_elements/wd-headings.php:14
+#: inc/vcomposer/vc_elements/wd-models.php:17
+msgid "Title"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:44
+msgid "Title Text Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:51
+msgid "Title Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:127
+msgid "Number"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:132
+msgid "Number Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:139
+msgid "Number Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:215
+msgid "Switcher Icon/Image"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:244
+msgid "Icon/image Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:252
+#: inc/vcomposer/vc_elements/wd-text_icon.php:489
+msgid "Icon Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-count_up.php:262
+#: inc/vcomposer/vc_elements/wd-text_icon.php:481
+msgid "Icon Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:8
+msgid "Drop Caps"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:18
+msgid "First Lettre"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:23
+msgid "Paragraph"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:25
+msgid "Paragraph text without the first lettre"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:41
+msgid "first lettre Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:43
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:58
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:66
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:92
+msgid "Example : 6px 6px 6px 6px"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:49
+msgid "first lettre Background color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:56
+msgid "first lettre Margin"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:64
+msgid "first lettre border width"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:72
+msgid "first lettre border color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:77
+msgid "first lettre border Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:90
+msgid "first lettre border radius"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:101
+msgid "first lettre Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:108
+msgid "first lettre Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:118
+msgid "first lettre Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:125
+msgid "first lettre Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:142
+msgid "first lettre Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:156
+msgid "first lettre Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:165
+msgid "first lettre Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:181
+msgid "Paragraph Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:188
+msgid "Paragraph Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:198
+msgid "Paragraph Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:205
+msgid "Paragraph Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:222
+msgid "Paragraph Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:236
+msgid "Paragraph Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:246
+msgid "Paragraph Lettre Spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-drop_caps.php:255
+msgid "Paragraph Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-empty_spaces.php:3
+msgid "Wd Empty Space"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-empty_spaces.php:12
+msgid "Height in Mobile"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-empty_spaces.php:17
+msgid "Height in Tablet"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-empty_spaces.php:22
+msgid "Height in Desktop"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-empty_spaces.php:27
+msgid "Extra Classes"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:6
+msgid "Headings"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:20
+msgid "Title Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:31
+msgid "subtitle"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:37
+msgid "Subtitle Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:67
+msgid "Separator Type"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:82
+msgid "Separator Position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:91
+msgid "Border Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:108
+msgid "Border Width"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:115
+msgid "Margin between Title and subtitle"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-headings.php:296
+#: inc/vcomposer/vc_elements/wd-maps.php:52
+#: inc/vcomposer/vc_elements/wd-text_icon.php:107
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:182
+msgid "Extra class name"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-hero_image.php:5
+msgid "Hero Image"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-hero_image.php:19
+msgid "Full Screen"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-hero_image.php:21
+#: inc/vcomposer/vc_elements/wd-portfolio.php:78
+#: inc/vcomposer/vc_elements/wd-portfolio.php:123
+#: inc/vcomposer/vc_elements/wd-portfolio.php:134
+#: inc/vcomposer/vc_elements/wd-portfolio.php:145
+#: inc/vcomposer/vc_elements/wd-testimonial.php:51
+msgid "Yes, please"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-hero_image.php:25
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:31
+msgid "Text"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:6
+msgid "Wd List"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:16
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:15
+#: inc/vcomposer/vc_elements/wd-progressbar.php:28
+msgid "Values"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:18
+msgid "Enter values for graph - value, title and color."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:21
+#: inc/vcomposer/vc_elements/wd-list.php:25
+msgid "Put some text here ..."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:32
+#: inc/vcomposer/vc_elements/wd-progressbar.php:48
+msgid "Label"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:34
+#: inc/vcomposer/vc_elements/wd-progressbar.php:50
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:39
+#: inc/vcomposer/vc_elements/wd-progressbar.php:55
+msgid "Value"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:48
+msgid "Select the icon color."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:52
+msgid "Text color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:54
+msgid "Select the text color."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:60
+msgid "List Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:75
+#: inc/vcomposer/vc_elements/wd-text_icon.php:464
+msgid "Icon Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:82
+#: inc/vcomposer/vc_elements/wd-text_icon.php:471
+msgid "Icon Margin"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-list.php:105
+msgid "Icon Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:6
+msgid "Maps"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:16
+#: inc/vcomposer/vc_elements/wd-maps.php:22
+msgid "Latitude"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:29
+msgid "Map Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:35
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:41
+msgid "Map Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:61
+msgid "Company Name"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:72
+msgid "Company Description"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-maps.php:82
+msgid "Markup"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-models.php:9
+msgid "Models Search"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:13
+msgid "Portfolio"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:21
+msgid "Portfolio Layout"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:33
+msgid "Hover Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:62
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:69
+#: inc/vcomposer/vc_elements/wd-testimonial.php:43
+msgid "Categories"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:75
+msgid "Enable Filters"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:86
+#: inc/vcomposer/vc_elements/wd-testimonial.php:55
+msgid "Items To Show"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:120
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:131
+msgid "Enable Link Icon"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:142
+msgid "Enable View Icon"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:154
+msgid "Columns Number On Mobile"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:169
+msgid "Columns Number On Tablet"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:184
+msgid "Columns Number On Desktop"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:199
+#: inc/vcomposer/vc_elements/wd-team_member.php:136
+msgid "Static Html Item Description Position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:208
+msgid "Static Html Item Description Column Width"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:217
+#: inc/vcomposer/vc_elements/wd-team_member.php:129
+msgid "Static HTML Item"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:224
+msgid "Spacing Between Items"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:231
+msgid "Static HTML Item background Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:239
+msgid "Load More Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:267
+msgid "Portfolio Title Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:282
+msgid "Portfolio Title Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:290
+msgid "Portfolio Title Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:300
+msgid "Portfolio Title Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:308
+msgid "Portfolio Title Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:326
+msgid "Portfolio Title Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:341
+msgid "Portfolio Title Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:351
+msgid "Portfolio Title Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:360
+msgid "Portfolio Title Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:377
+msgid "Portfolio Tags Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:385
+msgid "Portfolio Tags Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:395
+msgid "Portfolio Tags Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:403
+msgid "Portfolio Tags Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:421
+msgid "Portfolio Tags Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:436
+msgid "Portfolio Tags Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:446
+msgid "Portfolio Tags Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:455
+msgid "Portfolio Tags Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:470
+msgid "Filters Position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:483
+msgid "Filters Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:491
+msgid "Filters Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:501
+msgid "Filters Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:510
+msgid "Filters Hover Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:518
+msgid "Filters Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:536
+msgid "Filters Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:551
+msgid "Filters Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:561
+msgid "Filters Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-portfolio.php:570
+msgid "Filters Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:6
+msgid "Wd Pricing Table"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:33
+msgid "Enter Line text."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:45
+msgid "Price"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:50
+msgid "Featured"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:55
+msgid "Per"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:57
+msgid "Per Month - Year - Day ..."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:61
+msgid "Sub Title"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:81
+msgid "Title Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:88
+msgid "Title Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:97
+msgid "Title Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:104
+msgid "Title Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:121
+msgid "Title Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:135
+msgid "Title Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:144
+msgid "Title Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:152
+msgid "Title Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:169
+msgid "Price Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:176
+msgid "Price Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:185
+msgid "Price Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:192
+msgid "Price Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:209
+msgid "Price Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:223
+msgid "Price Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:232
+msgid "Price Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:240
+msgid "Price Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:256
+msgid "Per Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:263
+msgid "Per Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:272
+msgid "Per Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:279
+msgid "Per Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:296
+msgid "Per Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:310
+msgid "Per Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:319
+msgid "Per Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:327
+msgid "Per Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:344
+msgid "Description Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:351
+msgid "Description Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:360
+msgid "Description Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:367
+msgid "Description Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:384
+msgid "Description Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:398
+msgid "Description Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:407
+msgid "Description Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:415
+msgid "Description Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:432
+msgid "List Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:439
+msgid "List Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:448
+msgid "List Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:455
+msgid "List Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:472
+msgid "List Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:486
+msgid "List Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:495
+msgid "List Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:503
+msgid "List Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:520
+msgid "Button Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:527
+msgid "Button Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:536
+msgid "Button Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:543
+msgid "Button Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:560
+msgid "Button Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:574
+msgid "Button Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:583
+msgid "Button Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-pricing_table.php:591
+msgid "Button Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:5
+msgid "Wd Progress Bar"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:13
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:34
+msgid "Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:22
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:22
+msgid "Widget title"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:24
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:23
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:30
+msgid "Enter values for graph - value, title."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:33
+msgid "Development"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:37
+msgid "Design"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:41
+msgid "Marketing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:57
+msgid "Enter value of bar."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:64
+msgid "Units"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:66
+msgid ""
+"Enter measurement units (Example: %, px, points, etc. Note: graph value and "
+"units will be appended to graph title)."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:70
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:188
+msgid "CSS box"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-progressbar.php:72
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:190
+msgid "Design Options"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:7
+msgid "Wd Team Member"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:43
+msgid "Picture Position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:51
+msgid "Slider Layout Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:59
+msgid "Show Website"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:68
+msgid "Navigation style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:76
+msgid "Dots position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:84
+msgid "Elements To Show In Mobile"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:90
+msgid "Elements To Show In Tablet"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:96
+msgid "Elements To Show In Desktop"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:103
+msgid "Show Skills"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:112
+msgid "Skills Layout"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:121
+msgid "Show Bibliography"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:130
+msgid "Used for add description item"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:147
+msgid "Static HTML Item Link To"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:154
+msgid "Static HTML Item Background Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:162
+msgid "Static HTML Item text Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:176
+msgid "Team Member Name Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:192
+msgid "Team Member Name Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:200
+msgid "Team Member Name Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:210
+msgid "Team Member Name Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:218
+msgid "Team Member Name Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:236
+msgid "Team Member Name Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:251
+msgid "Team Member Name Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:261
+msgid "Team Member Name Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:270
+msgid "Team Member Name Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:284
+msgid "Job Title Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:299
+msgid "Job Title Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:307
+msgid "Job Title Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:317
+msgid "Job Title Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:325
+msgid "Job Title Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:343
+msgid "Job Title Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:358
+msgid "Job Title Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:368
+msgid "Job Title Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:377
+msgid "Job Title Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:393
+msgid "About Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:401
+msgid "About Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:411
+msgid "About Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:419
+msgid "About Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:437
+msgid "About Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:452
+msgid "About Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:462
+msgid "About Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:471
+msgid "About Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:486
+msgid "Skill Name Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:494
+msgid "Skill Value Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:502
+msgid "Skill Name Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:512
+msgid "Skill Value Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:522
+msgid "Skill Name Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:531
+msgid "Skill Value Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:539
+msgid "Skill Name Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:557
+msgid "Skill Value Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:575
+msgid "Skill Name Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:589
+msgid "Skill Value Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:604
+msgid "Skill Name Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:614
+msgid "Skill Value Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:623
+msgid "Skill Name Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:636
+msgid "Skill Value Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:651
+msgid "Website Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:659
+msgid "Website Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:669
+msgid "Website Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:677
+msgid "Website Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:695
+msgid "Website Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:710
+msgid "Website Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:719
+msgid "Website Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:733
+msgid "Show Social Medias"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:736
+msgid "Yes"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:744
+msgid "social Icons Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-team_member.php:754
+msgid "Social Icons Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:11
+msgid "Wd Testimonail"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:29
+msgid "Show Thumbnail"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:36
+msgid "Thumbnail position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:49
+msgid "Infinity Scroll"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:86
+msgid "Text margin"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:88
+#: inc/vcomposer/vc_elements/wd-testimonial.php:95
+msgid "for example : 10px 10px 10px 10px"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:93
+msgid "Quotes margin"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:99
+msgid "Testimonial Title Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:116
+msgid "Testimonial Title Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:123
+msgid "Testimonial Title Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:132
+msgid "Testimonial Title Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:139
+msgid "Testimonial Title Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:156
+msgid "Testimonial Title Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:170
+msgid "Testimonial Title Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:179
+msgid "Testimonial Title Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:187
+msgid "Testimonial Title Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:199
+msgid "Testimonial Job Title Tag"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:216
+msgid "Testimonial Job Title Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:223
+msgid "Testimonial Job Title Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:232
+msgid "Testimonial Job Title Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:239
+msgid "Testimonial Job Title Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:256
+msgid "Testimonial Job Title Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:270
+msgid "Testimonial Job Title Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:279
+msgid "Testimonial Job Title Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:287
+msgid "Testimonial Job Title Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:302
+msgid "Testimonial Text Font Family"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:309
+msgid "Testimonial Text Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:318
+msgid "Testimonial Text Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:325
+msgid "Testimonial Text Font Weight"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:342
+msgid "Testimonial Text Text Transform"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:356
+msgid "Testimonial Text Line Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:365
+msgid "Testimonial Text Letter spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:373
+msgid "Testimonial Text Font Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:387
+msgid "Testimonial Quotes Font Size"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:396
+msgid "Testimonial Quotes Font Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-testimonial.php:404
+msgid "Testimonial Quotes Opacity"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:6
+msgid "Text block with an Icon"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:23
+msgid "Show subtitle"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:32
+msgid "Switch Title and Subtitle"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:51
+msgid "Content/Title Box Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:57
+msgid "Hover Effect"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:67
+msgid "Apply Link To"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:77
+msgid "Box Background"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:86
+msgid "Box background Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:93
+msgid "Box Hover Background Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:100
+msgid "Box background Image"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:123
+msgid "Title Balises"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:128
+msgid "h2 (Default)"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:138
+msgid "Title Text Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:152
+msgid "Title Separator Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:159
+msgid "Title Separator Height"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:166
+msgid "Title Separator Width"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:240
+msgid "Subtitle Text"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:248
+msgid "Title SubText Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:256
+msgid "SubTitle Text Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:338
+msgid "Content Text"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:344
+msgid "Content Text Padding"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:351
+msgid "Content Text Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:498
+msgid "Icon Border Style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:516
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:524
+msgid "Icon Border Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:533
+msgid "Icon Border width"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:541
+msgid "Icon Border Radius"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:552
+msgid "Link"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:560
+msgid "Read MoreText"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-text_icon.php:568
+msgid "Read More Class"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:7
+msgid "Tabs"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:17
+msgid "Tabbed content"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:29
+msgid "Classic"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:30
+msgid "Modern"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:31
+msgid "Flat"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:32
+msgid "Outline"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:35
+msgid "Select tabs display style."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:41
+msgid "Rounded"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:42
+msgid "Square"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:43
+msgid "Round"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:45
+msgid "Shape"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:46
+msgid "Select tabs shape."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:51
+msgid "Color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:52
+msgid "Select tabs color."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:60
+msgid "Do not fill content area?"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:61
+msgid "Do not fill content area with color."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:80
+msgid "Spacing"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:81
+msgid "Select tabs spacing."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:101
+msgid "Gap"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:102
+msgid "Select tabs gap."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:108
+msgid "Top"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:109
+msgid "Bottom"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:111
+msgid "Position"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:112
+msgid "Select tabs navigation position."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:123
+msgid "Select tabs section title alignment."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:143
+msgid "Autoplay"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:144
+msgid "Select auto rotate for tabs in seconds (Note: disabled by default)."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:149
+msgid "Active section"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:151
+msgid ""
+"Enter active section number (Note: to have all sections closed on initial "
+"load enter non-existing number)."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:158
+msgid "Square Dots"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:159
+msgid "Radio Dots"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:160
+msgid "Point Dots"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:161
+msgid "Fill Square Dots"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:162
+msgid "Rounded Fill Square Dots"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:164
+msgid "Pagination style"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:165
+msgid "Select pagination style."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:171
+msgid "Pagination color"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:172
+msgid "Select pagination color."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:184
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:208
+#: inc/vcomposer/vc_elements/wd-vc_tabs.php:209
+msgid "Tab"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd_product_cat.php:21
+msgid "Wd Product Category"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd_product_cat.php:48
+msgid "Select Category"
+msgstr ""
+
+#: inc/vcomposer/vc_elements/wd_product_cat.php:51
+msgid "Select a category"
+msgstr ""
+
+#: inc/walker/wd-walker.php:100
+msgid "Please assign a menu to the primary menu location under "
+msgstr ""
+
+#: inc/walker/wd-walker.php:101 inc/walker/wd-walker.php:112
+msgid "Menus Settings"
+msgstr ""
+
+#: index.php:30
+msgid "prev"
+msgstr ""
+
+#: index.php:30
+msgid "Next"
+msgstr ""
+
+#: page.php:22 single.php:79
+msgid "Pages:"
+msgstr ""
+
+#: parts/footer/footer-4.php:10
+msgid "Follow us on"
+msgstr ""
+
+#: parts/header/header-1.php:68
+msgid "Menu"
+msgstr ""
+
+#: parts/header/header-1.php:94
+msgid "My Account"
+msgstr ""
+
+#: parts/header/header-1.php:106
+msgid "Log Out"
+msgstr ""
+
+#: parts/header/header-1.php:111
+msgid "Sign In"
+msgstr ""
+
+#: parts/header/header-1.php:113
+msgid "New Customer?"
+msgstr ""
+
+#: parts/header/header-1.php:114
+msgid "Sign Up"
+msgstr ""
+
+#: parts/header/header-1.php:123
+msgid "Account"
+msgstr ""
+
+#: parts/header/header-1.php:127
+msgid "Orders"
+msgstr ""
+
+#: parts/header/header-1.php:131
+msgid "Wish Lists"
+msgstr ""
+
+#: parts/header/header-1.php:144
+msgid "Garage"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:12
+msgid "Category Archives"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:15
+msgid "Tag Archives"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:17
+msgid "Yearly Archives"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:19
+msgid "Monthly Archives"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:21
+msgid "Daily Archives"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:23
+msgid "Author Archives"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:31 parts/titlebar/titlebar-1.php:35
+msgid "Our Latest Blog Posts"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:34
+msgid "Blog"
+msgstr ""
+
+#: parts/titlebar/titlebar-1.php:40
+msgid "Search Result of"
+msgstr ""
+
+#: searchform.php:10
+msgid "Type & hit enter..."
+msgstr ""
+
+#: single-portfolio.php:109
+msgid "Client :"
+msgstr ""
+
+#: single-portfolio.php:115
+msgid "Period :"
+msgstr ""
+
+#: single-portfolio.php:121
+msgid "Location :"
+msgstr ""
+
+#: single-portfolio.php:127
+msgid "Author :"
+msgstr ""
+
+#: single-portfolio.php:134
+msgid "share :"
+msgstr ""
+
+#: single-portfolio.php:153
+msgid "Related Projects"
+msgstr ""
+
+#: single.php:66
+msgid "POSTED BY:"
+msgstr ""
+
+#: single.php:102
+msgid " / About Author"
+msgstr ""
+
+#: single.php:107
+msgid "More posts by "
+msgstr ""
+
+#: single.php:115
+msgid "NO COMMENTS"
+msgstr ""
+
+#: single.php:115
+msgid "ONE COMMENT"
+msgstr ""
+
+#: single.php:115
+msgid "% COMMENTS"
+msgstr ""
+
+#: vc_templates/vc_cta_button.php:9
+msgid "Text on the button"
+msgstr ""
+
+#: vc_templates/vc_video.php:91
+msgid "Play video"
+msgstr ""

@@ -1,0 +1,58 @@
+
+// Instagram Style
+
+ul.instagram {
+  margin: 0 -5px;
+  li {
+    padding: 0 5px 10px !important;
+    float: left;
+    &:before {
+      display: none;
+    }
+  }
+
+}
+
+ul.instagram-bottom {
+  display: inline;
+  list-style: none !important;
+  li {
+    float: left;
+    padding: 0;
+    line-height: inherit;
+    border:none !important;
+    &:first-child {
+      background: url(../images/icons.png) -340px -9px;
+      background-repeat: no-repeat;
+      width: 45px;
+      height: 52px;
+      overflow: hidden;
+      zoom: 0.5;
+      -moz-transform: scale(0.5);
+      -moz-transform-origin: 0 0;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  a.visit_me {
+    font-size: 11px;
+    padding-left: 5px;
+    @extend .primary-color_color;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+ul.instagram li a {
+  display: block;
+}
+//light gallery costum changes
+.lg-actions .lg-prev:after {
+  content: "\f177" !important;
+}
+.lg-actions .lg-next:after {
+  content: "\f178" !important;
+}
+.lg-next:before {
+  content: "" !important;
+}

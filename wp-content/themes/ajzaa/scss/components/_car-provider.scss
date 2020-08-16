@@ -1,0 +1,36 @@
+.product_supplier {
+  li {
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    span {
+      flex: 1 1 auto;
+      margin: 5px;
+    }
+    a {
+      display: flex;
+      background: rgba(0, 0, 0, .03);
+      padding: 30px 15px;
+      justify-content: center;
+      &:hover {
+        background: rgba(0, 0, 0, .1);
+      }
+    }
+    img {
+      transition: all .25s ease-in-out;
+      filter: grayscale(0);
+      max-height: 40px;
+    }
+    .posted_in {
+      font-size: 18px;
+      display: block;
+    }
+    &:hover {
+      img {
+        filter: grayscale(1);
+      }
+    }
+  }
+}

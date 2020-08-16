@@ -1,0 +1,67 @@
+//______________________mega Menu _______________________
+@media #{$large-up} { 
+  .wd-menu-nav{
+.ajzaa_mega-menu > .sub-menu.dropdown {
+  background : rgba(0,0,0,0.8);
+  left: -50%;
+}
+.ajzaa_mega-menu > .sub-menu.dropdown > li {
+    display: table-cell;
+    float: none;
+    width: auto;
+    //border: 1px solid rgba(0,0,0,0);
+    
+}
+.top-bar-section .ajzaa_mega-menu > .dropdown > li:hover:not(.has-form):not(.active) > a:not(.button),
+.top-bar-section .ajzaa_mega-menu .dropdown li:hover:not(.has-form):not(.active) > a:not(.button),
+.top-bar-section .ajzaa_mega-menu .dropdown li:not(.has-form):not(.active) > a:not(.button)
+ {
+  background : none;
+}
+.ajzaa_mega-menu > .sub-menu.dropdown {
+    & > li {
+      border-right : 1px solid rgba(238, 238, 238, 0.1);
+      padding : 0 100px 0 20px;
+       
+        &:last-child {
+            border :none;
+        }
+      & > .sub-menu.dropdown {
+        display: block;
+        overflow: hidden !important;
+        padding-bottom: 0;
+        padding-top: 0;
+        position: unset !important;
+        width: 100%;
+        //border:none;
+        
+        a {
+          font-size : 12px;
+          color : #989898;
+          i {
+            margin-right : 5px;
+          }
+        }
+      }
+  }
+}
+.top-bar-section .ajzaa_mega-menu.has-dropdown .dropdown li.has-dropdown > a:after {
+    content: "";
+}
+.ajzaa_mega-menu > .dropdown > li > a {
+    font-weight: bold;
+   
+}
+.ajzaa_mega-menu > .sub-menu.dropdown {
+    padding-bottom: 20px;
+    background-size:36%;
+}
+.ajzaa_mega-menu > .sub-menu.dropdown > li.title.back.js-generated {
+  display : none;
+}
+}
+}
+//_____________________________________________________________________
+.ajzaa_mega-menu > ul.sub-menu.dropdown::after {
+  background : none;
+}

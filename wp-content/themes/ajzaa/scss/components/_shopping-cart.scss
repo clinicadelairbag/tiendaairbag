@@ -1,0 +1,169 @@
+.xoo-wsc-container {
+  .xoo-wsc-header {
+    .xoo-wsc-ctxt {
+      font-size: 15px;
+      font-weight: 700;
+      color: #222;
+    }
+    .xoo-wsc-close {
+      display: inline-block;
+      width: 20px;
+      height: 2px;
+      background: 0 0;
+      transition: .3s;
+      position: absolute;
+      &:before,
+      &:after {
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        top: 0;
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background-color: #333;
+        transition: .3s;
+        position: absolute;
+        left: 0;
+        content: "";
+      }
+      &:before {
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+      }
+      &:after {
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
+      }
+    }
+  }
+  .xoo-wsc-body {
+    .xoo-wsc-content {
+      .xoo-wsc-product {
+        position: relative;
+        .xoo-wsc-img-col,
+        .xoo-wsc-sum-col {
+          display: table-cell;
+          vertical-align: middle;
+          float: none;
+        }
+        .xoo-wsc-img-col {
+          width: 75px;
+          height: 75px;
+          .xoo-wsc-remove {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            margin: 0;
+            span {
+              display: inline-block;
+              width: 10px;
+              height: 2px;
+              background: 0 0;
+              transition: .3s;
+              position: absolute;
+              &:after,
+              &:before {
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+                top: 0;
+                display: inline-block;
+                width: 10px;
+                height: 2px;
+                background-color: #333;
+                transition: .3s;
+                position: absolute;
+                left: 0;
+                content: "";
+                &:hover {
+                  @extend .primary-color_bg;
+                }
+              }
+              &:before {
+                -webkit-transform: rotate3d(0, 0, 1, 45deg);
+                transform: rotate3d(0, 0, 1, 45deg);
+              }
+              &:after {
+                -webkit-transform: rotate3d(0, 0, 1, -45deg);
+                transform: rotate3d(0, 0, 1, -45deg);
+              }
+            }
+          }
+        }
+        .xoo-wsc-sum-col {
+          width: auto;
+          padding-left: 15px;
+          a {
+            color: #222;
+            font-weight: 600;
+          }
+        }
+        &:last-child {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+  .xoo-wsc-footer {
+    background-color: #FFF;
+    .xoo-wsc-footer-a {
+      .xoo-wsc-subtotal {
+        color: #222;
+      }
+    }
+    .xoo-wsc-footer-b {
+      overflow: hidden;
+      .btn {
+        margin: 3px;
+        display: inline-block;
+        @extend .primary-color_bg;
+        -webkit-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out;
+        border: 1px solid $primary-color;
+        @extend .primary-color_border;
+        font-family: $body-font-family;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: .5px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        padding: 10px;
+        color: #FFF;
+        &.xoo-wsc-cart,
+        &.xoo-wsc-chkt {
+          float: left;
+          width: calc(50% - 3px);
+        }
+        &.xoo-wsc-cart {
+          margin-left: 0;
+        }
+        &.xoo-wsc-chkt {
+          margin-right: 0;
+        }
+        &.xoo-wsc-cont {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          @extend .primary-color_color;
+        }
+      }
+    }
+  }
+}
+.xoo-wsc-basket {
+  display: none;
+}
+@media #{$small-only} {
+  .logged-in {
+    div.xoo-wsc-container {
+      top: 46px;
+    }
+  }
+}
+.logged-in {
+  .xoo-wsc-container {
+    top: 32px;
+  }
+}

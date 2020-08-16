@@ -1,0 +1,562 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-20 17:53+0100\n"
+"PO-Revision-Date: 2018-10-24 18:50+0\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;__e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: import/class.wordpress-importer.php:134
+#: import/class.wordpress-importer.php:143
+#: import/class.wordpress-importer.php:194
+#: import/class.wordpress-importer.php:198
+#: import/class.wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: import/class.wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: import/class.wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: import/class.wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: import/class.wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: import/class.wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: import/class.wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: import/class.wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: import/class.wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: import/class.wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:511
+#: import/class.wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: import/class.wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: import/class.wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:856
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: import/class.wordpress-importer.php:869
+msgid "Invalid file type"
+msgstr ""
+
+#: import/class.wordpress-importer.php:913
+msgid "Remote server did not respond"
+msgstr ""
+
+#: import/class.wordpress-importer.php:919
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:926
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: import/class.wordpress-importer.php:931
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: import/class.wordpress-importer.php:937
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1039
+msgid "Import WordPress"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1046
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1061
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1062
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: import/parsers.php:42 import/parsers.php:72 import/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: import/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: import/parsers.php:84 import/parsers.php:89 import/parsers.php:279
+#: import/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: import/wd-import.php:47 import/wd-import.php:77
+msgid "Content imported successfully"
+msgstr ""
+
+#: import/wd-import.php:66
+msgid "Content file not found"
+msgstr ""
+
+#: import/wd-import.php:72
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: import/wd-import.php:74
+msgid "An Error Occurred During Content Import"
+msgstr ""
+
+#: import/wd-import.php:98
+msgid "Widgets file not found"
+msgstr ""
+
+#: import/wd-import.php:117
+msgid "Widgets import data file could not be read or is empty."
+msgstr ""
+
+#: import/wd-import.php:118
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: import/wd-import.php:151
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: import/wd-import.php:169
+msgid "Site does not support widget"
+msgstr ""
+
+#: import/wd-import.php:197
+msgid "Widget already exists"
+msgstr ""
+
+#: import/wd-import.php:234
+msgid "Imported"
+msgstr ""
+
+#: import/wd-import.php:238
+msgid "Imported to Inactive"
+msgstr ""
+
+#: import/wd-import.php:243
+msgid "No Title"
+msgstr ""
+
+#: import/wd-import.php:253
+msgid "Options imported successfully"
+msgstr ""
+
+#: import/wd-import.php:341
+msgid "File doesn't exist"
+msgstr ""
+
+#: import/wd-import.php:343
+msgid " file doesn't exist"
+msgstr ""
+
+#: import/wd-import.php:360
+msgid " import data file could not be read or is empty."
+msgstr ""
+
+#: import/wd-import.php:371
+msgid "File doesn't exist or not valid"
+msgstr ""
+
+#: post-types.php:10
+msgid "Portfolio"
+msgstr ""
+
+#: post-types.php:11
+msgid "portfolio"
+msgstr ""
+
+#: post-types.php:12 post-types.php:13 post-types.php:15
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: post-types.php:14
+msgid "Edit portfolio"
+msgstr ""
+
+#: post-types.php:16
+msgid "View Portfolio Item"
+msgstr ""
+
+#: post-types.php:17
+msgid "Search Portfolio Item"
+msgstr ""
+
+#: post-types.php:18
+msgid "No Portfolio Item found"
+msgstr ""
+
+#: post-types.php:19
+msgid "No Portfolio Item found in trash"
+msgstr ""
+
+#: post-types.php:45
+msgid "Team Members"
+msgstr ""
+
+#: post-types.php:46
+msgid "team member"
+msgstr ""
+
+#: post-types.php:47 post-types.php:48 post-types.php:50
+msgid "Add New Team Member"
+msgstr ""
+
+#: post-types.php:49
+msgid "Edit Team Member"
+msgstr ""
+
+#: post-types.php:51
+msgid "View Team Member"
+msgstr ""
+
+#: post-types.php:52
+msgid "Search Team Member"
+msgstr ""
+
+#: post-types.php:53
+msgid "No Team Member found"
+msgstr ""
+
+#: post-types.php:54
+msgid "No Team Member found in trash"
+msgstr ""
+
+#: post-types.php:73
+msgid "Testimonials"
+msgstr ""
+
+#: post-types.php:74
+msgid "testimonials"
+msgstr ""
+
+#: post-types.php:75 post-types.php:76 post-types.php:78
+msgid "Add New Testimonial Item"
+msgstr ""
+
+#: post-types.php:77
+msgid "Edit testimonials"
+msgstr ""
+
+#: post-types.php:79
+msgid "View Testimonial Item"
+msgstr ""
+
+#: post-types.php:80
+msgid "Search Testimonial Item"
+msgstr ""
+
+#: post-types.php:81
+msgid "No Testimonial Item found"
+msgstr ""
+
+#: post-types.php:82
+msgid "No Testimonial Item found in trash"
+msgstr ""
+
+#: post-types.php:106
+msgid "Search Models"
+msgstr ""
+
+#: post-types.php:107
+msgid "All Models"
+msgstr ""
+
+#: post-types.php:108
+msgid "Parent Model"
+msgstr ""
+
+#: post-types.php:109
+msgid "Parent Model:"
+msgstr ""
+
+#: post-types.php:110
+msgid "Edit Model"
+msgstr ""
+
+#: post-types.php:111
+msgid "Update Model"
+msgstr ""
+
+#: post-types.php:112
+msgid "Add New Model"
+msgstr ""
+
+#: post-types.php:113
+msgid "New Model Name"
+msgstr ""
+
+#: post-types.php:114
+msgid "Model"
+msgstr ""
+
+#: post-types.php:123
+msgid "models"
+msgstr ""
+
+#: post-types.php:137
+msgid "Search Suppliers"
+msgstr ""
+
+#: post-types.php:138
+msgid "All Suppliers"
+msgstr ""
+
+#: post-types.php:139
+msgid "Parent Supplier"
+msgstr ""
+
+#: post-types.php:140
+msgid "Parent Supplier:"
+msgstr ""
+
+#: post-types.php:141
+msgid "Edit Supplier"
+msgstr ""
+
+#: post-types.php:142
+msgid "Update Supplier"
+msgstr ""
+
+#: post-types.php:143
+msgid "Add New Supplier"
+msgstr ""
+
+#: post-types.php:144
+msgid "New Provider Name"
+msgstr ""
+
+#: post-types.php:145
+msgid "Supplier"
+msgstr ""
+
+#: shortcode/blog/wd-content-gallery.php:35
+#: shortcode/blog/wd-content-gallery.php:123
+msgid "Continue"
+msgstr ""
+
+#: shortcode/tinymce/ajax.php:15
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: shortcode/wd-models.php:111 widgets/model-search.php:96
+msgid "Select Brand..."
+msgstr ""
+
+#: shortcode/wd-models.php:130 widgets/model-search.php:117
+msgid "Select Model..."
+msgstr ""
+
+#: shortcode/wd-models.php:135 widgets/model-search.php:122
+msgid "Select Year..."
+msgstr ""
+
+#: shortcode/wd-models.php:144
+msgid "Or Search By Brand"
+msgstr ""
+
+#: shortcode/wd-vc_tab.php:25
+msgid "Empty tab. Edit page to add content here."
+msgstr ""
+
+#: widgets/flickr.php:9
+msgid "Widget Of Flickr"
+msgstr ""
+
+#: widgets/flickr.php:13
+msgid "Display your latest Flickr photos."
+msgstr ""
+
+#: widgets/flickr.php:166
+msgid "Flickr Photos"
+msgstr ""
+
+#: widgets/flickr.php:189
+msgid "Ex:123456789@N00."
+msgstr ""
+
+#: widgets/flickr.php:198
+msgid ""
+"Set how many photos you want to show.Maximum 20 Because Flickr limit its to "
+"20 photos"
+msgstr ""
+
+#: widgets/flickr.php:215 widgets/instagram.php:143
+msgid "choose type of layout to display items:"
+msgstr ""
+
+#: widgets/flickr.php:225 widgets/instagram.php:152
+msgid "number of pictures showen on slider:"
+msgstr ""
+
+#: widgets/instagram.php:5
+msgid "Widget of Instagram"
+msgstr ""
+
+#: widgets/instagram.php:5 widgets/instagram.php:89
+msgid "Instagram Widget"
+msgstr ""
+
+#: widgets/instagram.php:119
+msgid "Ex:@username."
+msgstr ""
+
+#: widgets/instagram.php:126
+msgid "shoose how many items you want to show"
+msgstr ""
+
+#: widgets/instagram.php:190
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: widgets/instagram.php:194
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: widgets/instagram.php:202 widgets/instagram.php:210
+#: widgets/instagram.php:214
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: widgets/instagram.php:226
+msgid "Instagram Image"
+msgstr ""
+
+#: widgets/instagram.php:256
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: widgets/twitter-oath-widget.php:15
+msgid "Twitter Tweets widget"
+msgstr ""
+
+#: widgets/twitter-oath-widget.php:17
+msgid "Displays latest twitter tweets"
+msgstr ""
+
+#: widgets/twitter-oath-widget.php:159
+msgid "Twitter feed"
+msgstr ""

@@ -1,0 +1,76 @@
+.wd-clients-carousel {
+	overflow: hidden;
+	.owl-nav > div {
+		height: 33px;
+		padding: 6px 4px;
+		width: 33px;
+		background-color: #999;
+	}
+	.owl-nav > div {
+		i {
+			color: #fff;
+			font-size: 12px;
+			margin-left: 5px;
+			display: table;
+			margin-top: 6px;
+		}
+		&:hover {
+			background-color: #cb9904;
+		}
+	}
+	.wd-clients-carousel-item {
+		text-align: center;
+		img {
+			margin: 0 auto;
+			opacity: .4;
+			@include transition( (all 0.6s, opacity .3s) );
+		}
+		&:hover {
+			img {
+				opacity: 1;
+			}
+		}
+	}
+  .owl-dots .owl-dot {
+      display: inline-block;
+  }
+  .owl-dots .owl-dot span {
+      background: #d6d6d6 none repeat scroll 0 0;
+      border-radius: 30px;
+      display: block;
+      height: 14px;
+      margin: 5px 7px;
+      transition: opacity 200ms ease 0s;
+      width: 14px;
+  }
+  .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background-color: #333333;
+  }
+  .owl-dots {
+    bottom: 1px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 78px;
+  }
+  .owl-dot {
+    padding: 3px 0;
+  }
+}
+.wd-clients-grid {
+	.wd-clients-grid-item {
+		text-align: center;
+		margin-bottom: 50px;
+		img {
+			margin: 0 auto;
+			opacity: .4;
+			@include transition( (all 0.6s, opacity .3s) );
+		}
+		&:hover {
+			img {
+				opacity: 1;
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+button, .button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    border-color: transparent;
+    color: white;
+    border-style: none;
+    @extend .primary-color_bg;
+    &:hover,
+    &:focus,
+    &.filled {
+        color: white;
+        @extend .primary-color_color;
+    }
+    &.filled {
+        background-color: #222;
+        border: none;
+    }
+    &.no-bg {
+        color: #000;
+        &:hover {
+            background: none;
+            color: #999;
+        }
+    }
+}
+
+.btn-icon-right {
+    i {
+        margin-left: 20px;
+    }
+}
+
+.btn-icon-left {
+    i {
+        margin-right: 20px;
+    }
+}
+
+.vc_btn3-container {
+    &.get-quote-btn {
+        margin-bottom: 0;
+        .vc_btn3 {
+            font-size: 12px !important;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: $body-font-family;
+        }
+    }
+}
+
+.wp-block-button {
+    .wp-block-button__link {
+        background-color: #ea1b25;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+}

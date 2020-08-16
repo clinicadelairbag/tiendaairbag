@@ -1,0 +1,41 @@
+.titlebar {
+	background-color: #e7e7e7;
+	padding: 100px 0;
+	.large-8 {
+		border-left: 6px solid #7A7A7A;
+	}
+	.breadcrumbs {
+		background-color: transparent;
+		border-color: transparent;
+	}
+}
+
+
+
+
+.wd-title-bar {
+  background: #f6f6f6 url("../images/titlebar-bg.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 200px;
+  text-align: center;
+  margin-bottom: 75px;
+  padding: 70px 0;
+  position : relative;
+  > .row {
+    @media #{$medium-only} {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+  h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    @media #{$small-only} {
+      font-size: 30px;
+    }
+  }
+  div h5 {
+    color: rgba(0,0,0, .5);
+  }
+}

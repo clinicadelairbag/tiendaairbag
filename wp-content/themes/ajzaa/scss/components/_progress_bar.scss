@@ -1,0 +1,54 @@
+.wd-progress-bar-container {
+	ul.wd-progress-bar {
+		list-style-type: none;
+		margin: 0;
+		padding: 0 18px;
+		li {
+			margin-bottom: 26px;
+			.value {
+			color: #cc9900;
+			font-size: 18px;
+			font-family: 'Open Sans';
+			font-weight: 700;
+			}
+			.label-bar {
+				color: #000;
+				font-weight: 700;
+				font-size: 14px;
+				letter-spacing: 0.7px;
+			}
+			.progress {
+				height: 4px;
+				margin-top: 17px;
+				padding: 0;
+				.meter {
+					-moz-transition:width 0.7s ease;
+					-webkit-transition:width 0.7s ease;
+					-transition:width 0.7s ease;
+					background-color: #cc9900;
+				}
+			}
+		}
+	}
+}
+.pie-chart-container {
+	.easyPieChart {
+		display: inline-block;
+		margin: 0 20px;
+		padding: 46px 40px 33px;
+		width: 124px;
+	}
+	.skill-name {
+	  	color: #000;
+			font-family: 'Montserrat';
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 900;
+			letter-spacing: 1px;
+			margin-top: 30px;
+			position: relative;
+			text-align: center;
+			text-transform: uppercase;
+			margin-left: 12px;
+	  }
+}

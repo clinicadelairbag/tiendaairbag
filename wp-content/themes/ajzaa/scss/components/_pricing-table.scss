@@ -1,0 +1,92 @@
+.pricing-table {
+	.pricing-table-img {
+	  border-bottom: 1px solid #e3e3e3;
+	  padding: 40px;
+	  text-align: center;
+	}
+	background-color: #FFF;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		min-height: 235px;
+	}
+	div.description, div.bullet-item, div.price {
+		padding: 10px 34px;
+	}
+	div.price {
+		font-family: 'Montserrat';
+		font-size: 40px;
+		font-weight: 700;
+		span {
+			font-size: 20px;
+			
+		}
+	}
+	div.description {
+		color: #999999;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		margin-bottom: 20px;
+		margin-left: 35px;
+		margin-right: 35px;
+		padding-bottom: 28px;
+		padding-left: 0;
+		padding-right: 50px;
+	}
+	div.title {
+		font-size: 18px;
+		font-family: "Open Sans";
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 32px 34px 12px 34px;
+	}
+	li.bullet-item {
+		font-size: 14px;
+		font-weight: 300;
+		padding: 2px 34px;
+		color: #000;
+		i {
+			color: #cc9900;
+			font-size: 30px;
+			margin-right: 11px;
+			position: relative;
+			top: 5px;
+		}
+	}
+	.cta-button {
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+		.button  {
+			border-color: #cccccc;
+			font-size: 14px;
+			i {
+				font-size: 18px;
+				position: relative;
+				top: 2px;
+				margin-left: 10px;
+			}
+			&:hover, &:focus {
+				color: #FFF !important;
+				background-color: #CC9900;
+				i {
+					color: #FFF;
+				}
+			}
+		}
+	}
+	@include transition( (all 0.6s, opacity .3s) );
+	&.featured {
+		.button {
+			color: #FFF;
+			background-color: #CC9900;
+			i {
+				color: #FFF;
+			}
+		}
+	}
+	&:hover, &.featured {
+		background-color: #F7F7F7;
+	}
+}

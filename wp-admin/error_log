@@ -1,0 +1,81 @@
+[09-May-2020 02:06:31 UTC] PHP Warning:  mysqli_query(): (HY000/2013): Lost connection to MySQL server during query in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/wp-db.php on line 2007
+[09-May-2020 02:06:31 UTC] Error Lost connection to MySQL server during query de la base de datos de WordPress para la consulta SELECT  t.*, tt.* FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('product_tax') ORDER BY t.name ASC  realizada por include('wp-admin/edit-form-advanced.php'), do_meta_boxes, post_categories_meta_box, wp_terms_checklist, get_terms, WP_Term_Query->query, WP_Term_Query->get_terms
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[07-Jul-2020 04:44:58 UTC] ajzaa_Resize.process() error: $url parameter is required
+[16-Jul-2020 05:23:41 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(325): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(286): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(208): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1532): apply_filters('the_co in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[16-Jul-2020 05:23:58 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(325): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(286): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(208): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1532): apply_filters('the_co in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[16-Jul-2020 20:12:15 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(343): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1683): apply_filters('the_co in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[16-Jul-2020 20:12:57 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(343): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(607): apply_filters('the in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[16-Jul-2020 20:13:05 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(343): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(607): apply_filters('the in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[16-Jul-2020 20:13:11 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(343): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(607): apply_filters('the in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[16-Jul-2020 20:13:28 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(343): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(607): apply_filters('the in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[16-Jul-2020 20:30:41 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php:148
+Stack trace:
+#0 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(343): ajzaa_text_icon(Array, '', 'ajzaa_text_icon')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(ajzaa_...', 'do_shortcode_ta...', '<p>[vc_row][vc_...')
+#3 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-hook.php(287): do_shortcode('<p>[vc_row][vc_...')
+#4 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row][vc_...', Array)
+#5 /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(607): apply_filters('the in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-content/plugins/wd-main-plugin/shortcode/wd-text_icon.php on line 148
+[06-Aug-2020 03:01:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-image-editor.php on line 489
+[06-Aug-2020 03:02:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-image-editor.php on line 489
+[06-Aug-2020 03:30:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-image-editor.php on line 489
+[06-Aug-2020 03:31:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-image-editor.php on line 489
+[06-Aug-2020 04:58:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-image-editor.php on line 489
+[06-Aug-2020 05:05:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-image-editor.php on line 489
+[07-Aug-2020 05:35:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-includes/class-wp-image-editor.php on line 489

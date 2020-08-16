@@ -1,0 +1,14 @@
+.widget-area .suppliers_list_widget {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  li {
+    padding: 7px 0;
+    .supplier_name {
+      display: block;
+    }
+    img {
+      float: left;
+    }
+  }
+}

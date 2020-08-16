@@ -1,0 +1,123 @@
+@media #{$small-only} {
+  .vc_row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  body {
+    position: unset;
+  }
+}
+@media #{$topbar-media-query} {
+  body {
+    &.f-topbar-fixed {
+      padding-top: $topbar-height;
+    }
+  }
+}
+@media #{$medium-up} {
+  .five-columns > .vc_col-sm-2 {
+    width: 20%;
+  }
+  .five-columns > .vc_col-sm-2:last-child {
+    display: none;
+  }
+
+
+
+  .wd-content.vc_col-sm-8 {
+    width: 72.333%;
+  }
+
+  .wd-sidebar.vc_col-sm-4 {
+   width: 27.666%;
+  }
+
+
+  .border-bar {
+    background: #fff;
+    min-width: 40px;
+    min-height: 40px;
+    position: fixed;
+    z-index: 9;
+  }
+  .body-margin .body-border-top {
+    top: -40px;
+  }
+  .body-border-top {
+    top: 0;
+    width: 100%;
+    position: absolute;
+  }
+  .body-border-bottom {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    position: absolute;
+  }
+  .body-border-right,
+  .body-border-left {
+    height: 100%;
+    top: 0;
+  }
+  .body-border-right {
+    right: 0;
+  }
+  .body-border-left {
+    left: 0;
+  }
+}
+
+body div.services-box{
+  @include transition( (all 0.6s ease-in-out) );
+  div.vc_column-inner{
+    @include transition( (all 0.6s ease-in-out) );
+  }
+  div.box-with-icon{
+    p.box-text{
+      @include transition( (all 0.6s ease-in-out) );
+    }
+    div.box-separator{
+      @include transition( (all 0.6s ease-in-out) );
+    }
+  }
+}
+body div.services-box:hover{
+  @extend .primary-color_bg;
+  div.vc_column-inner{
+    background: transparent !important;
+  }
+  div.box-with-icon{
+    p {
+      color: #fff !important;
+    }
+    div.box-separator {
+      background: #fff !important;
+    }
+  }
+}
+.top-bar .name h2 {
+  padding-top: 25px;
+}
+.top-bar .name h2 a{
+  color: #333;
+  line-height: 50px;
+  font-size: 34px;
+  @media #{$small-only}{
+    line-height: 40px;
+    font-size: 22px;
+  }
+}
+#content.l-main{
+  clear: both;
+
+}
+br {
+  display: block;
+  margin: 5px 0;
+}
+br {
+  line-height: 40px;
+}
+div.dgwt-wcas-sf-wrapp {
+  background-color: transparent;
+}

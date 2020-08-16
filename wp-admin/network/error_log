@@ -1,0 +1,4 @@
+[15-Oct-2019 12:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-admin/network/upgrade.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/vw17k532b2wq/public_html/autopartes.clinicadelairbag.com/wp-admin/network/upgrade.php on line 18

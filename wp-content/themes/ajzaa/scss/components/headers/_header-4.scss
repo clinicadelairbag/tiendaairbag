@@ -1,0 +1,15 @@
+.wd-header.wd-header-4 {
+  .wd-menu-nav {
+    padding: 10px 0px;
+    &.fixed {
+      max-width: 100%;
+      padding: 0 30px;
+    }
+  }
+  .wd-top-bar {
+    padding: 5px 0 8px;
+  }
+  .inline-list {
+    margin-bottom: 0;
+  }
+}

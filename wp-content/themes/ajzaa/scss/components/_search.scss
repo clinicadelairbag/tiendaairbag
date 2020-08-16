@@ -1,0 +1,12 @@
+.result {
+	margin-bottom: 50px;
+	h2.post-title {
+		a {
+			color: #000;
+			@include transition( (all 0.3s, opacity .3s) );
+		}
+	}
+	.post-categories {
+		display: inline-block;
+	}
+}

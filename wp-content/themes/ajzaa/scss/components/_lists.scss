@@ -1,0 +1,115 @@
+.list-icon {
+  li {
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  li::before {
+    @extend .primary-color_color;
+    content: " ";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin: 0px -19px 0px;
+  }
+  &.check-circle li::before {
+    content: " ";
+  }
+  &.check-circle-o li::before {
+    content: " ";
+  }
+  &.check-square li::before {
+    content: " ";
+  }
+  &.check-square-o li::before {
+    content: " ";
+  }
+}
+
+.wd-list {
+  margin: 0%;
+  list-style: none !important;
+  li {
+    i {
+      min-width: 28px;
+      min-height: 18px;
+      display: inline-table;
+      text-align: center;
+    }
+  }
+  &.style-2 {
+    li {
+      i {
+        border-radius: 50%;
+        color: #FFF;
+        padding: 10px;
+        min-width:34px;
+        display: inline-table;
+        min-height: 34px;
+        text-align: center;
+      }
+    }
+  }
+  &.style-2-2 {
+    li {
+      i {
+        border-radius: 50%;
+        border: 1px solid;
+        padding: 10px;
+        min-width:34px;
+        display: inline-table;
+        min-height: 34px;
+        text-align: center;
+      }
+    }
+  }
+  &.style-3 {
+    li {
+      i {
+        padding: 10px;
+        color: #FFF;
+        min-width:34px;
+        display: inline-table;
+        min-height: 34px;
+        text-align: center;
+      }
+    }
+  }
+  &.style-3-3 {
+    li {
+      i {
+        border: 1px solid;
+        padding: 10px;
+        min-width:34px;
+        display: inline-table;
+        min-height: 34px;
+        text-align: center;
+      }
+    }
+  }
+  &.style-4 {
+    li {
+      i {
+        padding: 10px;
+        min-width:34px;
+        display: inline-table;
+        min-height: 34px;
+        text-align: center;
+        @include transition( (all 0.6s, all .3s) );
+      }
+    }
+  }
+}
+.social_media{
+   width: 248px;
+   margin: 30px auto 0;
+   li{
+     i{
+       width: 40px;
+       height: 40px;
+       border: 1px solid rgba(51,51,51,0.3);
+       border-radius: 50%;
+       line-height: 40px;
+       text-align: center;
+       color: #2801bc;
+     }
+   }
+ }

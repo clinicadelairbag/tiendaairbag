@@ -1,0 +1,67 @@
+div.custom-contact-form {
+  div.large-6, .large-12, .large-9 {
+    position: relative;
+    span {
+      input, select {
+        height: 50px;
+        margin-bottom: 30px;
+        border-color: #EEE !important;
+        background: #fff;
+        padding-left: 15px;
+        font-size: 15px;
+        &::-moz-placeholder {
+          color: #C0BBBB;
+        }
+      }
+      textarea {
+        max-height: 179px;
+        margin-bottom: 30px;
+        border-color: #EEE !important;
+        background: rgb(255, 255, 255);
+        padding-left: 15px;
+        font-size: 15px;
+        &::-moz-placeholder {
+          color: #C0BBBB;
+        }
+      }
+      select {
+        color: #666;
+        &::-moz-placeholder {
+          color: #C0BBBB;
+        }
+      }
+    }
+    &::after {
+      position: absolute;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      @extend .primary-color_color;
+      font-size: 18px;
+      top: 12px;
+      right: 30px;
+    }
+    &.name::after {
+      content: "\f007";
+    }
+    &.phone::after {
+      content: "\f095";
+    }
+    &.email::after {
+      content: "\f003";
+    }
+  }
+  .large-12 {
+    input {
+      @extend .primary-color_bg;
+      border-radius: 5px;
+      border: none;
+      color: #fff;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1.33px;
+      height: 45px;
+    }
+  }
+}

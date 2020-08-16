@@ -1,0 +1,125 @@
+.top-bar-section {
+  float: left;
+  width: 100%;
+  @media #{$small-only} {
+    border-top: 1px solid #EEE;
+  }
+  .row {
+    position: relative;
+  }
+  ul.right {
+    li:last-child {
+      &::after {
+        display: none;
+      }
+    }
+    li {
+      position: relative;
+      &::after {
+        content: "";
+        background: #333333;
+        width: 1px;
+        height: 20px;
+        position: absolute;
+        top: 14px;
+        right: 0;
+      }
+    }
+  }
+}
+.top-bar .name h2 a {
+  @media #{$small-only} {
+    width: 100%;
+  }
+}
+.fixed {
+  .top-bar-section {
+    border-top: none;
+  }
+}
+.wd-menu-nav {
+  transition: all 0.5s ease 0s;
+  &.sticky.fixed{
+    background: #fff;
+    padding: 0;
+  }
+}
+.with-bg {
+  background: #000;
+}
+.wd-menu-nav .ajzaa_mega-menu > .sub-menu.dropdown > li > .sub-menu.dropdown a:hover {
+  @extend .primary-color_color;
+}
+ul.sub-menu.dropdown:after {
+  content: " ";
+  display: block;
+  @extend .primary-color_bg;
+  position: absolute;
+  width: 2px;
+  height: 1%;
+  left: 0;
+  transition: all .4s ease-in-out;
+  top : 0;
+}
+.top-bar-section .has-dropdown.not-click:hover>.dropdown:after {
+  height: 100%;
+}
+.wd-top-bar {
+  color: #ccc;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f1f1;
+  padding: 3px;
+  .left {
+    @media #{$small-only} {
+    }
+    i {
+      font-size: 1.3em;
+      padding-right: 8px;
+      padding-left: 3px;
+    }
+  }
+  .social-icons {
+    @media #{$small-only} {
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+  }
+
+}
+@media #{$small-only} {
+  .wd-top-bar .right {
+    .inline-list > li {
+      display: inline-block;
+      float: none;
+    }
+  }
+}
+.address-info span {
+  margin-right: 30px;
+  color: #222;
+  @media #{$small-only} {
+    margin-right: 5px;
+  }
+}
+.wd-header-1 {
+  .top-bar {
+    @media #{$medium-up}{
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+    }
+    .row{
+      max-width: $row-width;
+    }
+  }
+}
+.top-bar-section ul li:hover:not(.has-form)>a {
+  background: transparent;
+}
+.top-bar .name {
+  .wd-logo {
+    h2 {
+      font-size: 2.3125rem;
+    }
+  }
+}

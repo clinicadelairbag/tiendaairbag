@@ -1,0 +1,86 @@
+#tribe-events .tribe-events-button {
+  @extend .primary-color_bg;
+}
+@media #{$topbar-media-query} {
+.events-list .tribe-events-loop,.tribe-events-day .tribe-events-loop {
+  max-width : 100%;
+}
+
+.tribe-events-list h2.tribe-events-list-event-title, .tribe-events-list .tribe-events-event-image + div.tribe-events-content,.tribe-events-loop .tribe-events-event-meta,.tribe-events-loop .tribe-events-content  {
+  float : right;
+  width: 67%;
+}
+  .tribe-events-list .tribe-events-event-image {
+    float : left;
+  }
+}
+.tribe-events-list .type-tribe_events {
+  border-bottom : 1px solid #eee;
+  padding-bottom: 30px;
+}
+.tribe-events-list .tribe-events-event-cost {
+  position : absolute;
+  right : 0;
+}
+.tribe-events-loop .tribe-events-event-meta {
+  font-weight : 200;
+}
+.tribe-events-list .tribe-events-venue-details {
+  margin-top : 10px;
+  line-height: 2;
+}
+.tribe-events-list .tribe-events-event-cost span {
+  background : none;
+  border : none;
+  @extend .primary-color_color;
+  font-size: 20px;
+font-weight: 200;
+}
+#tribe-events .tribe-events-content p {
+  color : #666;
+}
+#tribe-events-content .tribe-events-list-event-description a {
+  @extend .primary-color_bg;
+color: #fff;
+padding: 10px 20px;
+margin-top: 20px;
+display: inline-block;
+}
+#tribe-bar-form {
+  background :  transparent;
+}
+#tribe-bar-form label {
+  font-weight: 200;
+  margin-bottom: 10px;
+  color: #888;
+  font-size : 17px;
+}
+#tribe-bar-form input[type="text"] {
+  border: solid 1px #eee;
+  padding: 12px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+#tribe-events .tribe-events-button, #tribe-bar-form .tribe-bar-submit input[type="submit"] {
+  background: none;
+border: 1px solid #eee;
+border-radius: 20px;
+color: #888;
+font-weight: 500;
+margin-top: 25px;
+&:hover {
+  @extend .primary-color_bg;
+  color : #fff;
+}
+}
+.tribe-bar-views-inner {
+    background: transparent;
+    border: solid 1px #eee;
+    border-radius: 10px;
+}
+#tribe-events a.tribe-events-button {
+    background: #5da204;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,54 @@
+.main-cookies{
+  display: none;
+  transition: all .8s ease-in-out;
+  max-width: 400px;
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  opacity: 0;
+  width: 100%;
+  z-index: 1;
+  .cookies-body {
+    position: relative;
+    height:100%;
+    p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0 0 5px 0;
+    }
+    .cookies-btn {
+      padding: 8px 20px 8px 0;
+      font-size: 14px;
+      color: #FFF;
+      font-weight: 600;
+      float: right;
+      margin-top: 30px;
+      border-bottom: 2px solid #fff;
+      cursor: pointer;
+      position: relative;
+      &::after{
+        content: "\f00c";
+        display: block;
+        font-family: FontAwesome;
+        right: 0;
+        position: absolute;
+        top: 8px;
+        font-weight: 400;
+      }
+    }
+    .more-info{
+      float: left;
+      padding: 8px 20px 8px 0;
+      font-size: 14px;
+      color: #FFF;
+      font-weight: 400;
+      margin-top: 30px;
+      cursor: pointer;
+      position: relative;
+    }
+  }
+}

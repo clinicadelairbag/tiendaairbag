@@ -1,0 +1,37 @@
+ul.projects {
+  margin: 0 -5px;
+  li {
+    padding: 0 5px 10px !important;
+    float: left;
+    width: 100%;
+    a {
+      display: block;
+      img {
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .owl-controls {
+    text-align: center;
+    margin-top: 20px;
+    .owl-dots {
+      .owl-dot {
+        margin-right: 10px;
+        display: inline-block;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #181814;
+        height: 15px;
+        width: 15px;
+        &.active {
+          @extend .primary-color_bg;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

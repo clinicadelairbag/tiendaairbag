@@ -1,0 +1,335 @@
+/* Main column width */
+.wp-block,
+  /* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+  max-width: 875px;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+  margin: 0 auto;
+}
+
+.editor-post-title__block .editor-post-title__input {
+  font-size: 40px;
+  color: #000;
+  font-family: "Open Sans";
+  text-align: center;
+  font-weight: 700;
+}
+
+.editor-post-title__block {
+  padding: 57px 15px;
+  margin-bottom: 0;
+  text-align: center;
+  position: relative;
+  background: url("images/titlebar-bg.jpg");
+  max-width: 1200px;
+  width: 1200px;
+}
+
+.wp-block-heading h1,
+.wp-block-heading h2,
+.wp-block-heading h3,
+.wp-block-heading h4,
+.wp-block-heading h5,
+.wp-block-heading h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #222;
+  line-height: 0.4;
+}
+
+.wp-block-heading h1 {
+  font-size: 2.75rem;
+  line-height: 1.4;
+}
+
+.wp-block-heading h2 {
+  font-size: 2.125rem;
+}
+
+.wp-block-heading h3 {
+  font-size: 1.6875rem;
+}
+
+.wp-block-heading h4 {
+  font-size: 1.4375rem;
+}
+
+.wp-block-heading h5 {
+  font-size: 1.125rem;
+}
+
+.wp-block-heading h6 {
+  font-size: 1rem;
+}
+.editor-styles-wrapper p{
+  margin-bottom: 15px;
+}
+.editor-styles-wrapper p,
+.editor-styles-wrapper ul {
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: rgb(111, 111, 111);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgb(5, 15, 37);
+}
+strong {
+  font-weight: 700;
+}
+
+.editor-styles-wrapper p.wp-block-subhead {
+  font-size: 1.1em;
+  font-style: italic;
+  opacity: .75;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wp-block-pullquote__citation {
+  text-transform: capitalize;
+  font-family: "Open Sans";
+}
+
+.editor-styles-wrapper {
+  font-family: "Open Sans" !important;
+}
+
+.editor-styles-wrapper li {
+  color: #787878;
+}
+
+.editor-styles-wrapper ul,
+.editor-styles-wrapper ol,
+.editor-styles-wrapper dl {
+  font-family: "Open Sans";
+  font-size: .9375rem;
+  list-style-position: outside;
+  margin-bottom: 1.25rem;
+  line-height: 24px;
+}
+
+.editor-styles-wrapper table tr th,
+.editor-styles-wrapper table tr td {
+  color: #666;
+  font-size: 1rem;
+  padding: .64286rem .71429rem;
+  text-align: left;
+  border: unset;
+}
+
+.editor-styles-wrapper table tr.even,
+.editor-styles-wrapper table tr.alt,
+.editor-styles-wrapper table tr:nth-of-type(2n) {
+  background: #F9F9F9;
+}
+
+a {
+  color: rgb(0, 168, 255);
+  text-decoration: none;
+}
+
+.editor-styles-wrapper a:hover,
+.editor-styles-wrapper a:focus {
+  color: #ce131c;
+}
+
+.editor-styles-wrapper {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.editor-rich-text__tinymce > p:first-child {
+  color: #6f6f6f;
+}
+
+.block-library-list .editor-rich-text__tinymce {
+  padding: 0;
+  color: #050f25;
+}
+
+.block-library-list  ul,.block-library-list  ol {
+  padding-left:0;
+  font-family: "open sans";
+  font-size: 15px;
+}
+
+ul.wp-block-latest-posts,.wp-block-latest-posts.is-grid {
+  padding-left: 1em;
+  list-style: disc;
+}
+
+/*------------- blockquote -------------*/
+.wp-block-quote:not(.is-large):not(.is-style-large)::after {
+  content: "\f10e";
+  font-size: 48px;
+  color: #000;
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.2);
+  bottom: 32px;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+  border-left: 1px solid #ddd;
+  padding: 40px 30px;
+  color: rgb(111, 111, 111);
+  margin: 1.2em 0 1.5rem;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots){
+  max-width: 100%;
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  height: 0;
+  margin: -0.75rem 0 1.1875rem;
+}
+.wp-block-pullquote {
+  border: none;
+  border-left: 1px solid #ddd;
+  padding: 3em 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+.wp-block-pullquote blockquote > .block-editor-rich-text p {
+  font-size: 14px;
+}
+
+.wp-block-pullquote blockquote > .editor-rich-text p {
+  color: rgb(102, 102, 102);
+}
+
+.block-library-pullquote__content.editor-rich-text.block-editor-rich-text::after {
+  content: "\f10e";
+  font-size: 48px;
+  color: #000;
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 20px;
+  color: rgba(0,0,0,0.2);
+  top: 5px;
+}
+
+.wp-block-preformatted pre {
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  overflow: auto;
+  padding: 20px;
+  white-space: pre-wrap;
+  font-family: monospace, monospace;
+  font-size: 13px;
+  color: rgb(5, 15, 37);
+  line-height: 19.5px;
+}
+
+.wp-block-verse pre {
+  font-family: "monospace";
+  font-size: 13px;
+  font-weight: 400;
+  padding: 20px;
+  line-height: 38px;
+  border: 1px solid rgba(0,0,0,0.32);
+}
+
+.wp-block-table {
+  width: 285px;
+}
+
+.wp-block-table td, .wp-block-table th {
+  border: solid 1px #ddd;
+  font-size: 14px;
+  font-family: "open sans";
+}
+
+.wp-block-quote__citation {
+  font-style: italic;
+  font-family: "open sans";
+  color: #555;
+}
+
+.wp-block-quote__citation::before {
+
+  content: "\2014 \0020";
+}
+
+.wp-block-button__link {
+  background-color: #ea1b25;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "open sans";
+}
+
+.wp-block-pullquote__citation {
+  font-style: italic;
+  font-family: "open sans";
+}
+
+.wp-block-pullquote__citation::before {
+
+  content: "\2014 \0020";
+
+}
+
+.block-editor-rich-text__editable code {
+  background-color: #b3e5ff;
+  border-color: #87d6ff;
+}
+
+.editor-styles-wrapper:not(.is-large):not(.is-style-large) {
+  border-left: 6px solid #ea1b25 !important;
+  background: #f6f6f6;
+}
+
+.wp-block-cover__inner-container p {
+  font-size: 36px !important;
+  color: #fff;
+  font-weight: 400;
+}
+
+.block-library-list ul li {
+  font-family: "open sans";
+}
+.wp-block-image figcaption
+{
+  color: rgb(5, 15, 37);
+  font-size: 16px;
+  font-family: "open sans";
+  margin-top: 0;
+}
+.wp-block-audio figcaption{
+  color: rgb(5, 15, 37);
+  font-size: 16px;
+  text-align: center;
+  font-family: "open sans";
+  margin-bottom: -24px;
+}
+.wp-block-quote.is-large p{
+  font-size: 24px;
+}
+.wp-block-quote.is-large p::after{
+  content: "\f10e";
+  font-size: 48px;
+  color: #000;
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 20px;
+  color: rgba(0,0,0,0.2);
+  top: 68%;
+}
+ .block-editor-rich-text__editable p
+{
+  color: #666;
+   font-size: 14px;
+   font-weight: 400;
+}
+  ul ul {
+  list-style-type: disc ;
+}

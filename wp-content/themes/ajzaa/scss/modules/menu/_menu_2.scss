@@ -1,0 +1,43 @@
+.wd-header-2 {
+  @media #{$small-only} {
+      background  : rgba(0,0,0,0.7);
+     }
+  .top-bar .toggle-topbar.menu-icon {
+    margin-top : 5px;
+  }
+  .top-bar-section {
+    float : unset;
+    padding : 0;
+    
+   .wd-menu-right,.wd-menu-left {
+     width : 45%;
+     margin-top : 20px;
+     @media #{$small-only} {
+       width : 100%;
+       margin-top : 40px;
+     }
+   }
+   .wd-menu-right  {
+     @media #{$small-only} {
+       margin-top : 0;
+     }
+     ul {
+      list-style-type: none;
+       li {
+         float : right;
+         @media #{$small-only} {
+           float : unset;
+         }
+       }
+     }
+   }
+   .wd-logo {
+    width : 10%;
+    padding-bottom: 20px;
+    text-align: center;
+    @media #{$small-only} {
+      position : absolute;
+    }
+   }
+  }
+}

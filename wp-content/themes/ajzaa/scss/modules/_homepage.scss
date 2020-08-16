@@ -1,0 +1,25 @@
+
+div.business-hello-intro {
+  .wpb_wrapper {
+    height: 500px;
+    .wpb_content_element {
+      transform: rotate(-90deg) translateY(163px);
+      bottom: -190px;
+      position: absolute;
+      p {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+
+
+.color-over::after {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  @extend .primary-color_bg;
+  height: 770px;
+}

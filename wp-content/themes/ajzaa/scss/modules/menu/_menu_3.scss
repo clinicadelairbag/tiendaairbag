@@ -1,0 +1,198 @@
+$menu-icon-size: 4rem;
+$menu-icon-color: #333;
+$menu-link-height: 6.25rem;
+$menu-link-color: #fff;
+$menu-link-border: 1px solid rgba(255,255,255, .5);
+.toggle-menu {
+  position:absolute;
+  font-size: $menu-icon-size;
+  z-index: 5000;
+  color: $menu-icon-color;
+  top: 20px;
+  right: 20px;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    transition: all 0.4s ease-in-out;
+    color: lighten($menu-icon-color, 30%);
+  }
+}
+
+.overlay-menu {
+  z-index: 1000;
+  margin: 0;
+  transition: all 400ms cubic-bezier(1, -0.4, 0.44, 0.985);
+  padding: 50px 70px 70px;
+  li {
+    font-size: 15px;
+    border-bottom: $menu-link-border;
+  }
+  a {
+    color: #fff;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: color 0.2s ease 0s;
+    padding : 10px 0;
+    &:hover {
+      opacity : 0.5;
+    }
+  }
+  &.is-open ~ .toggle-menu {
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(135deg);
+    color: lighten($menu-icon-color, 100%);
+  }
+}
+.is-open {
+  top: 0;
+  opacity: 1;
+}
+
+//----------------------------------------------------------
+.c-hamburger {
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 70px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+}
+button.c-hamburger:hover, button.c-hamburger:focus {
+    background : none;
+  }
+.c-hamburger:focus {
+  outline: none;
+}
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 28px;
+  left: 18px;
+  right: 18px;
+  height: 4px;
+  background: white;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  content: "";
+  top : 10px;
+}
+
+.c-hamburger span::before {
+  top: -10px;
+}
+
+.c-hamburger span::after {
+  bottom: -20px;
+}
+.is-active.c-hamburger span::before,
+.is-active.c-hamburger span::after
+ {
+  top : 0;
+}
+//--------------------------
+
+
+.c-hamburger--htx span {
+  transition: background 0s 0.3s;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s;
+}
+//_____________________________________________
+.c-hamburger nav {
+  position : relative;
+}
+.menu-empty-menu-container {
+  position : fixed;
+  background : rgba(204, 153, 0, 0.95);
+  width: 744px;
+  min-height : 500px;
+  top: 20px;
+  right: 20px;
+  z-index : 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.menu-empty-menu-container > ul {
+  list-style-type: none;
+  & > .has-dropdown {
+    ul {
+      list-style-type: none;
+      opacity: 0;
+      transform: scale(0);
+      height: 1px;
+      transition: all .4s;
+    }
+    &:hover {
+      ul {
+        list-style-type: none;
+        opacity: 1;
+        transform: scale(1);
+        height: initial;
+      }
+    }
+  }
+}
+.wd-header-3 {
+  .wd-logo {
+    position :  relative;
+    z-index : 100;
+  }
+}

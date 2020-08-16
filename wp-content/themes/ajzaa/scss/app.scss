@@ -1,0 +1,126 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+
+@import "help";
+
+//____________tools______________
+@import "tools/mixins";
+@import "tools/animate";
+
+//___________vendor________________
+//@import "vendor/hover/hover";
+
+//___________layout________________
+
+
+@import "layout/global";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/aside";
+@import "layout/contact-form.scss";
+
+//____________module______________
+@import "modules/slider";
+@import "modules/_widget";
+@import "modules/blog";
+@import "modules/piechart";
+@import "modules/404";
+@import "modules/team-member";
+@import "modules/portfolio";
+@import "modules/carousel";
+@import "modules/clients";
+@import "modules/homepage";
+@import "modules/woocommerce";
+@import "modules/menu/mega_menu";
+@import "modules/menu/menu_1";
+@import "modules/menu/menu_2";
+@import "modules/menu/menu_3";
+@import "modules/events";
+@import "modules/charitable";
+
+//___________components____________
+
+@import "components/headers/_header-1";
+@import "components/headers/_header-2";
+@import "components/headers/_header-3";
+@import "components/headers/_header-4";
+@import "components/headers/_header-5";
+@import "components/headers/_header-6";
+@import "components/bouton";
+@import "components/lists";
+@import "components/forms";
+@import "components/text-icon";
+@import "components/sections";
+@import "components/hero-image";
+@import "components/testimonail";
+@import "components/pricing-table";
+@import "components/_images";
+@import "components/accordion";
+@import "components/titlebar";
+@import "components/our-clients";
+@import "components/video";
+@import "components/_progress_bar";
+@import "components/_search";
+@import "components/_tabs";
+@import "components/_drop_cups";
+@import "components/_responsive";
+@import "components/lang_icons";
+@import "components/car-provider";
+@import 'components/banner';
+@import 'components/flickr';
+@import 'components/instagram';
+@import 'components/projects';
+@import 'components/heading';
+@import 'components/shopping-cart';
+@import 'components/cookies-message';
+@import 'components/_geutnberg';
+
+//____________base______________
+@import "base/global";
+
+
+
+
+@import "tools/responsive";
+
+

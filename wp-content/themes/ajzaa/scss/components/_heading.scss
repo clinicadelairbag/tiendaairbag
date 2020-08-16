@@ -1,0 +1,32 @@
+.wd-heading {
+  p{
+    color: #333;
+  }
+  position: relative;
+  @for $i from 1 through 6 {
+    h#{$i} {
+      display: inline-block;
+    }
+  }
+  hr {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border-color: $primary-color;
+    @extend .primary-color_border;
+  }
+  &.text-center {
+    hr {
+      position: relative;
+      top: auto;
+      left: auto;
+      right: auto;
+      width: 80px !important;
+    }
+  }
+  &.text-right {
+    hr {
+      left: 0;
+    }
+  }
+}

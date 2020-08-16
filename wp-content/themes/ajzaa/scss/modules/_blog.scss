@@ -1,0 +1,1890 @@
+.blog-container {
+    a {
+        @include transition((all 0.4s, color .3s));
+        &:hover {
+            opacity: .5;
+        }
+    }
+}
+
+.ajzaa_multi_post_isotop_item:last-child {
+    & > div {
+        border: none;
+
+    }
+}
+
+.ajzaa_multi_post_isotop_item:first-child {
+    & > div {
+        padding-top: 0;
+    }
+}
+
+li.ajzaa_multi_post_isotop_item {
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li.wd-image-left {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    & > div > div:first-child {
+        padding-left: 0;
+        padding-right: 4px;
+
+    }
+    & > div {
+        padding-left: 0;
+    }
+}
+
+.ajzaa_multi_post_isotop_item > div > div > div {
+    span {
+        border-right: 1px solid #a9a9a9;
+        padding-right: 10px;
+        display: inline-block;
+        line-height: 10px;
+        &:nth-child(3) {
+            border: none;
+        }
+    }
+}
+
+.ajzaa_one_post_gallery {
+    .button {
+        border-color: #fff;
+        color: #fff;
+        &:hover {
+            background: none;
+        }
+    }
+}
+
+//__________ Multi video posts masonry ______
+.ajzaa_multi_post_video_masonry {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_video_masonry_info {
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 33px 0 8px;
+            letter-spacing: 0.45px;
+            @include transition((all 0.4s, color .3s));
+            a {
+                color: #000;
+            }
+        }
+        & > div {
+            color: #999;
+            font-size: 12px;
+
+            margin-bottom: 10px;
+            span {
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 20px;
+                line-height: 28px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+}
+
+//__________ Multi video posts grid left video ______
+.ajzaa_multi_post_video_left {
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_video_left_info {
+        padding-left: 30px;
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 0 0 8px 0;
+            letter-spacing: 0.45px;
+        }
+        & > div {
+            color: #999;
+            font-size: 12px;
+
+            margin-bottom: 10px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin: 15px 0 0 0;
+                line-height: 28px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+}
+
+//__________ Multi video posts grid top video ______
+.ajzaa_multi_post_video_top {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_video_top_info {
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 33px 0 8px;
+            letter-spacing: 0.45px;
+        }
+        & > div {
+            color: #999;
+            font-size: 12px;
+
+            margin-bottom: 10px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 20px;
+                line-height: 28px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+}
+
+//__________ Multi gallery posts masonry ______
+.ajzaa_multi_post_gallery_masonry {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_gallery_masonry_info {
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 33px 0 8px;
+            letter-spacing: 0.45px;
+            a {
+                color: #000;
+            }
+        }
+        & > div {
+            font-size: 12px;
+            margin-bottom: 10px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 20px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+    .owl-nav {
+        .owl-prev, .owl-next {
+            background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+            padding: 5px 15px 3px 5px;
+            left: 40px;
+            i {
+                font-size: 20px;
+                opacity: 0.2;
+            }
+            &:hover {
+                background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+                i {
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+        .owl-next {
+            left: auto;
+            right: 15px;
+
+        }
+    }
+}
+
+//__________ Multi gallery post grid left image ______
+.ajzaa_multi_post_gallery_left_image {
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_gallery_left_image_info {
+        padding-left: 30px;
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.45px;
+            margin: 0;
+        }
+        & > div {
+            color: #999;
+            font-size: 12px;
+
+            margin-bottom: 10px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 10px;
+                line-height: 25px;
+                margin-bottom: 12px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+    .owl-nav {
+        .owl-prev, .owl-next {
+            background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+            padding: 0 8px 3px 2px;
+            left: 40px;
+            i {
+                font-size: 10px;
+                opacity: 0.2;
+            }
+            &:hover {
+                background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+                i {
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+        .owl-next {
+            left: auto;
+            right: 15px;
+
+        }
+    }
+}
+
+//__________ Multi post gallery  grid top image ______
+.ajzaa_multi_post_gallery_top_image {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_gallery_top_image_info {
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 17px;
+            margin: 20px 0 8px;
+            letter-spacing: 0.45px;
+        }
+        & > div {
+            color: #999;
+            font-size: 12px;
+
+            margin-bottom: 10px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 10px;
+                line-height: 28px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+    .owl-nav {
+        .owl-prev, .owl-next {
+            background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+            padding: 5px 15px 3px 5px;
+            left: 40px;
+            i {
+                font-size: 20px;
+                opacity: 0.2;
+            }
+            &:hover {
+                background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+                i {
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+        .owl-next {
+            left: auto;
+            right: 15px;
+
+        }
+    }
+}
+
+//__________ Multi Standar posts masonry ______
+.ajzaa_multi_post_masonry {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_masonry_info {
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 33px 0 8px;
+            letter-spacing: 0.45px;
+            a {
+                color: #000;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                a {
+                    opacity: .6;
+                }
+            }
+        }
+        & > div {
+            color: #999;
+            font-size: 12px;
+            margin-bottom: 10px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 20px;
+                line-height: 28px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+}
+
+//__________ Multi post Standar  grid top image ______
+.ajzaa_multi_post_top_image {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_multi_post_top_image_info {
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            margin: 20px 0 8px;
+        }
+        & > div {
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 10px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+}
+
+//__________ Multi post Standar  grid left image ______
+.ajzaa_multi_post_left_image {
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .ajzaa_multi_post_left_image_info {
+        padding-left: 24px;
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.45px;
+            margin: 0;
+        }
+        & > div {
+            color: #999;
+            font-size: 13px;
+
+            margin-bottom: 10px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 10px;
+                line-height: 25px;
+                margin-bottom: 16px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+}
+
+//_______one post Standar ___________
+.ajzaa_one_post_standar {
+    position: relative;
+    .ajzaa_one_post_standar_info {
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.82);
+        padding-top: 10px;
+        h1, h2, h3, h4, h5, h6 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            padding: 0 30px;
+        }
+        & > div {
+            color: #fff;
+            font-size: 13px;
+            font-weight: bold;
+            span {
+                font-weight: 200;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            a {
+                font-size: 13px;
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+//_______one post Gallery ___________
+.ajzaa_one_post_gallery {
+    position: relative;
+    .ajzaa_blog_post_gallery:after {
+        background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+        content: "";
+        display: inline-block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .owl-controls {
+        margin: 0;
+    }
+    .owl-nav {
+        position: absolute;
+        bottom: 25px;
+        right: -18px;
+        z-index: 10;
+        .owl-prev {
+            right: 43px;
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+        .owl-next {
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            right: 0;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .ajzaa_one_post_gallery_info {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        h1, h2, h3, h4, h5, h6 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            padding: 0 30px;
+        }
+        & > div {
+            color: #fff;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 43px;
+            span {
+                font-weight: 200;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            a {
+                color: #fff;
+                font-size: 13px;
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+}
+
+//____________ one Post quote _____________________
+.ajzaa_one_post_quote {
+    background: #eee none repeat scroll 0 0;
+    padding: 20px;
+    & > div {
+        position: relative;
+        background: #fff none repeat scroll 0 0;
+        padding: 30px;
+        blockquote {
+            padding: 0;
+            font-style: italic;
+            border: none;
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 35px;
+        }
+        .ajzaa_author {
+            font-size: 14px;
+            color: #000;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        i {
+            bottom: 0;
+            color: rgba(0, 0, 0, 0.1);
+            font-size: 50px;
+            position: absolute;
+            right: 70px;
+        }
+    }
+}
+
+//_____________ free style position  2 ________________
+.ajzaa_freestyle_content_position_2 {
+    padding-left: 0;
+    position: relative;
+    min-height: 318px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .owl-nav {
+        position: absolute;
+        bottom: 44px;
+        right: 0;
+        .owl-prev {
+            right: 43px;
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+        .owl-next {
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            right: 0;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+//_____________ free style position 3 ________________
+.ajzaa_freestyle_content_position_3 {
+    position: relative;
+    padding-right: 0;
+    min-height: 318px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .owl-nav {
+        position: absolute;
+        bottom: 44px;
+        right: 0;
+        .owl-prev {
+            right: 43px;
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+        .owl-next {
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            right: 0;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+//_________free style position 4 _________________________
+.ajzaa_freestyle_content_position_4 {
+    position: relative;
+    background: #eee none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding-left: 0;
+    min-height: 633px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    .ajzaa_freestyle_content_position_4_info {
+        padding-top: 20px;
+        padding-right: 0;
+        padding-left: 30px;
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.45px;
+            margin: 0 0 8px 0;
+            @include transition((all 0.4s, color .3s));
+            &:hover {
+                color: #999999;
+            }
+        }
+        & > div {
+            color: #999;
+            font-size: 13px;
+
+            padding-bottom: 50px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 15px;
+                line-height: 28px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            position: relative;
+            top: 100px;
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+    .owl-nav {
+        position: absolute;
+        bottom: 44px;
+        right: 0;
+        .owl-prev {
+            right: 43px;
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+        .owl-next {
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            right: 0;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+//_____________________ajzaa_freestyle_content_position_1
+.ajzaa_freestyle_content_position_1 {
+    position: relative;
+    background: #eee none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding-left: 0;
+    min-height: 303px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    & > div {
+        padding-left: 0;
+    }
+    .ajzaa_freestyle_content_position_1_info {
+        padding-top: 20px;
+        padding-right: 0;
+        padding-left: 20px;
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.45px;
+            margin: 0 0 8px 0;
+            @include transition((all 0.4s, color .3s));
+            &:hover {
+                color: #999999;
+            }
+        }
+        & > div {
+            color: #999;
+            font-size: 13px;
+
+            margin-bottom: 50px;
+            span {
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 10px;
+            }
+            p {
+                margin-top: 15px;
+                line-height: 28px;
+            }
+            a {
+                color: #999;
+                font-size: 13px;
+            }
+        }
+        .wd-redmore {
+            position: relative;
+            top: 100px;
+            i {
+                font-size: 14px;
+                margin-left: 10px;
+                color: #999999;
+            }
+            a {
+                color: #999999;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                @include transition((all 0.4s, color .3s));
+            }
+            &:hover {
+                i {
+                    color: #000;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+        .post-categories, .post-categories li {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+    .owl-nav {
+        position: absolute;
+        bottom: 44px;
+        right: 0;
+        .owl-prev {
+            right: 43px;
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+        .owl-next {
+            background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+            padding: 3px 15px 3px 5px;
+            right: 0;
+            &:hover {
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+//___________free style quote ______________
+.ajzaa_freestyle_quote_position_1 {
+    margin-bottom: 20px;
+    background: #eee;
+    .ajzaa_one_post_quote {
+        padding: 0;
+        text-align: center;
+        min-height: 318px;
+        i {
+            display: block;
+            width: 100%;
+            color: #cccccc;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        & > div {
+            background: none;
+        }
+    }
+}
+
+.ajzaa_freestyle_quote_position_2 {
+    background: #eee;
+    .ajzaa_one_post_quote {
+        padding: 0;
+        text-align: center;
+        min-height: 318px;
+        i {
+            display: block;
+            width: 100%;
+            color: #cccccc;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        & > div {
+            background: none;
+        }
+    }
+}
+
+.ajzaa_freestyle_quote_position_3 {
+    background: #eee;
+    .ajzaa_one_post_quote {
+        padding: 0;
+        text-align: center;
+        min-height: 318px;
+        i {
+            display: block;
+            width: 100%;
+            color: #cccccc;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        & > div {
+            background: none;
+        }
+    }
+}
+
+.ajzaa_freestyle_quote_position_4 {
+    background: #eee;
+    .ajzaa_one_post_quote {
+        padding: 0;
+        text-align: center;
+        min-height: 665px;
+        i {
+            display: block;
+            width: 100%;
+            color: #cccccc;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        & > div {
+            background: none;
+        }
+    }
+}
+
+//_____________  filter __________________________
+.filters {
+    margin-bottom: 60px;
+    text-align: center;
+    a {
+        color: #999;
+        font-weight: 500;
+        margin-right: 20px;
+        text-transform: uppercase;
+        &:hover, &:active, &:focus {
+            color: #000;
+            font-weight: bold;
+        }
+    }
+}
+
+.home {
+    .ajzaa_isotop {
+        .wd-redmore {
+            margin-top: 20px;
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+//_________________sing post ________________
+.blog-page-title {
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        color: #000;
+    }
+}
+
+.blog-page {
+    & > ul, .post-categories {
+        list-style: none;
+    }
+    .ajzaa_blog_post_gallery_masonry {
+        margin: 0;
+        .owl-nav {
+            .owl-prev, .owl-next {
+                background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+                padding: 5px 15px 3px 5px;
+                left: 40px;
+                i {
+                    font-size: 20px;
+                    opacity: 0.2;
+                }
+                &:hover {
+                    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+                    i {
+                        color: #fff;
+                        opacity: 1;
+                    }
+                }
+            }
+            .owl-next {
+                left: auto;
+                right: 15px;
+
+            }
+        }
+    }
+
+    .wd-tages {
+        .tags {
+            margin-left: 0;
+            a {
+                position: relative;
+                display: inline-block;
+                color: #fff;
+                @extend .primary-color_bg;
+                margin-right: 20px;
+                padding: 0 10px 0 20px;
+                font-size: 10px;
+                font-weight: 600;
+                letter-spacing: .5px;
+                height: 22px;
+                line-height: 22px;
+                -webkit-border-radius: 0 2px 2px 0;
+                border-radius: 0 2px 2px 0;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    background-color: #fff;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                    height: 3px;
+                    width: 3px;
+                    top: 50%;
+                    left: 5px;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    z-index: 1;
+                }
+                &:after {
+                    border-bottom: 10px solid #fff;
+                    border-right: 10px solid $primary-color;
+                    border-top: 12px solid #fff;
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    @extend .primary-color_bg;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+        }
+    }
+}
+
+.blog-page-info {
+    color: #999;
+    font-size: 12px;
+
+    margin-bottom: 50px;
+    .post-categories {
+        display: inline-block;
+        margin: 0;
+    }
+    span {
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+    a {
+        color: #999;
+        font-size: 13px;
+    }
+}
+
+.post-infos {
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    li {
+        position: relative;
+        display: inline-block;
+        padding: 0 10px 0 5px;
+        color: #747473;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:after {
+            content: "";
+            background-color: #747473;
+            height: 15px;
+            width: 1px;
+            display: block;
+            top: 50%;
+            right: 0;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: absolute;
+        }
+    }
+
+}
+
+.blog-body {
+    margin-top: 20px;
+    .wp-block-gallery {
+        margin-left: 0;
+    }
+
+}
+blockquote.wp-block-quote {
+    border-left: 1px solid #ddd;
+    @extend .primary-color_border;
+    background: #fff;
+    padding: 40px 30px;
+    margin: 1.2em 0 1.5rem;
+    p {
+        font-size: 16px;
+        line-height: 1.7;
+        color: #666666;
+        position: relative;
+        &:after {
+            content: "\f10e";
+            font-size: 48px;
+            color: #000;
+            font-family: "FontAwesome";
+            position: absolute;
+            right: 20px;
+            color: rgba(0, 0, 0, 0.2);
+            top: 46px;
+        }
+    }
+}
+.author-section {
+    padding: 40px 40px 40px 0;
+    @media #{$small-only} {
+        padding: 25px 15px;
+    }
+    margin-bottom: 70px;
+    background-color: #f2f3ee;
+    border-color: #f2f3ee;
+    overflow: hidden;
+    .author-thumbnail {
+        float: left;
+        padding: 0 40px;
+        @media #{$small-only} {
+            float: none;
+            padding: 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        img {
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+        .contact-me {
+            text-align: center;
+            margin-top: 20px;
+            img {
+                -webkit-border-radius: 0;
+                border-radius: 0;
+            }
+        }
+    }
+    .author-body {
+        float: right;
+        width: calc(100% - 176px);
+        @media #{$small-only} {
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        .author-name {
+            margin-bottom: 15px;
+            color: #000000;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: $body-font-family;
+            letter-spacing: 1.5px;
+        }
+        .author-desc {
+            p {
+                margin-bottom: 0;
+                color: #747473;
+                font-size: 15px;
+                line-height: 28px;
+                font-weight: 600;
+            }
+        }
+        .more-posts {
+            margin-top: 20px;
+            a {
+                color: $primary-color;
+                font-size: 15px;
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+
+.blog-heading {
+    position: relative;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    margin-top: 55px;
+}
+
+.related-post-carousel {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 60px;
+    .related-post {
+        position: relative;
+        .related-post-thumbnail {
+            img {
+                -webkit-border-radius: 5px;
+                border-radius: 5px;
+            }
+        }
+        .related-post-body {
+            padding: 20px 25px;
+            .flexed {
+                display: flex;
+                margin: 0 0 15px 0;
+                li {
+                    list-style: none;
+                    padding-right: 15px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #898b8c;
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                    .fa {
+                        @extend .primary-color_color;
+                        margin-right: 5px;
+                    }
+                    .post-categories {
+                        display: inline-block;
+                        margin: 0;
+                        li {
+                            padding-right: 0;
+                            a {
+                                color: #898b8c;
+                            }
+                        }
+                    }
+                }
+            }
+            .related-post-title {
+                color: #000;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 0;
+            }
+        }
+    }
+    .owl-controls {
+        position: absolute;
+        margin: 0;
+        top: -61px;
+        right: 15px;
+        @media #{$small-only} {
+            position: relative;
+            top: auto;
+            right: auto;
+        }
+        .owl-nav {
+            [class*="owl-"] {
+                -webkit-transition: all .35s ease-in-out;
+                transition: all .35s ease-in-out;
+                @extend .primary-color_bg;
+                margin: 0;
+                padding: 0;
+                height: 30px;
+                width: 30px;
+                -webkit-border-radius: 2px;
+                border-radius: 2px;
+                line-height: 27px;
+                text-align: center;
+                border: 0;
+                opacity: 1;
+                .fa {
+                    -webkit-transition: all .35s ease-in-out;
+                    transition: all .35s ease-in-out;
+                    margin: 0;
+                    color: #fff;
+                    font-size: 10px;
+                }
+                &:hover {
+                    background-color: #999;
+                    .fa {
+                        color: #FFF;
+                    }
+                }
+            }
+            .owl-prev {
+                left: -35px;
+            }
+        }
+        .owl-dots {
+            display: none !important;
+            margin-top: 30px;
+            @media #{$small-only} {
+                display: block !important;
+            }
+            .owl-dot {
+                width: 15px;
+                height: 15px;
+                display: inline-block;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                margin-right: 5px;
+                background-color: #181814;
+                &.active {
+                    @extend .primary-color_bg;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.comment-form {
+    textarea,
+    input {
+        border-radius: 4px;
+    }
+    .form-submit {
+        input[type="submit"] {
+            @extend .primary-color_bg;
+            border-radius: 5px;
+            &:hover {
+                @extend .primary-color_bg;
+            }
+        }
+    }
+}
+
+.wd-tages {
+    border-top: 2px solid #e5e5e5;
+    margin-top: 10px;
+    padding-top: 30px;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 10px;
+    span {
+        &:first-child {
+            font-weight: bold;
+            color: #000;
+        }
+    }
+    .share-icons {
+        margin: 15px 0;
+        span {
+            &:first-child {
+                font-weight: bold;
+                color: #000;
+            }
+        }
+        ul {
+            display: inline-block;
+            list-style-type: none;
+            margin-left: 0;
+            li {
+                display: inline-block;
+                margin-right: 20px;
+                a {
+                    color: #333;
+                    .button {
+                        display: none;
+                    }
+                    i {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+li.comment {
+    section.comment {
+        & > a {
+            float: right;
+        }
+    }
+    margin-bottom: 30px;
+    position: relative;
+    header {
+        text-align: center;
+    }
+    article > div {
+        background: #f6f6f6;
+        padding: 10px 20px;
+        position: relative;
+        &:after {
+            border-bottom: 10px solid transparent;
+            border-right: 20px solid #F6F6F6;
+            border-top: 10px solid transparent;
+            content: "";
+            height: 0;
+            left: -16px;
+            position: absolute;
+            top: 15px;
+            width: 0;
+        }
+        cite {
+            color: #000;
+            font-weight: 600;
+            margin-top: 1em;
+            &::before {
+                content: "";
+            }
+        }
+        p {
+            color: #666;
+            margin-top: 10px;
+        }
+        time {
+            a {
+                color: #999999;
+            }
+
+        }
+    }
+}
+
+//_________________________pagination ____________________
+.wd-pagination, .page-links {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    a {
+        color: #999999;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 0 5px;
+        &:hover, &focus, &active {
+            border-bottom: 1px solid #000;
+            color: #000;
+
+        }
+    }
+    .current {
+        color: #000;
+        border-bottom: 1px solid #000;
+        background: none;
+        padding: 0 5px;
+    }
+    text-align: center;
+
+    .next {
+        float: right;
+        padding: 0;
+        color: #000;
+        &:hover, &focus, &active {
+            border: none;
+        }
+        &:after {
+            background: #ebf0f1 none repeat scroll 0 0;
+            content: " ";
+            display: inline-block;
+            height: 25px;
+            padding: 20px 0;
+            position: absolute;
+            right: -10px;
+            top: -7px;
+            width: 40px;
+            z-index: -1;
+        }
+    }
+    .prev {
+        float: left;
+        padding: 0;
+        color: #000;
+        &:hover, &focus, &active {
+            border: none;
+        }
+        &:after {
+            background: #ebf0f1 none repeat scroll 0 0;
+            content: " ";
+            display: inline-block;
+            height: 25px;
+            padding: 20px 0;
+            position: absolute;
+            left: -10px;
+            top: -7px;
+            width: 40px;
+            z-index: -1;
+        }
+    }
+}
+
+.page .body.field ul,
+.single .blog-body ul {
+    list-style: initial;
+}
+
+.page .sidebar .widget ul {
+    list-style: none;
+}
+
+.single .blog-body pre {
+    overflow-x: scroll;
+    background-color: #eee;
+    padding: 15px;
+}
+
+.blog .blog-page .post {
+    padding: 0 0 60px 0;
+}
+
+.blog .blog-page .sticky.fixed, .blog .blog-page .sticky {
+    position: static;
+    border-top: 2px solid;
+    background: rgba(238, 238, 238, 0.49);
+    margin-bottom: 60px;
+    padding: 20px 5px 40px 20px;
+}
+
+.blog .blog-page .post-categories,
+.single .blog-page-info .post-categories {
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-bottom: -1px;
+    li {
+        float: left;
+        padding-right: 6px;
+        line-height: 15px;
+    }
+}
+
+.blog .blog-page .wd-redmore a {
+    padding-right: 5px;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+}
+
+.commentlist {
+    list-style: none;
+    .children {
+        list-style: none;
+    }
+    .pingback {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        .comment {
+            p {
+                margin: 20px 0;
+            }
+        }
+        .comment-edit-link {
+            float: right;
+        }
+    }
+}
+
+@media #{$small-only} {
+    .blog-container {
+        ul {
+            li {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.wp-block-quote.is-large {
+        cite {
+            font-size: 16px;
+            text-align: left;
+            margin-top: 1em;
+        }
+    }

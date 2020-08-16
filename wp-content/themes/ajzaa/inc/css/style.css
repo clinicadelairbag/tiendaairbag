@@ -1,0 +1,562 @@
+input[type="text"].wd-color-picker {
+  width: 200px;
+}
+tr {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.43);
+}
+tr:last-child {
+  border-bottom: 0;
+}
+.wd-validate p {
+  text-align: center;
+}
+#wd-Panel .form-table {
+  margin: 0;
+  min-height: 400px;
+  height: 400px;
+}
+.wd-gallery-images-holder {
+  display: block;
+  height: 160px;
+}
+
+.wd-cpanel .ui-helper-clearfix:before, 
+.wd-cpanel .ui-helper-clearfix:after {
+    border-collapse: collapse;
+    content: "";
+    display: table;
+}
+.wd-cpanel .ui-helper-clearfix:after {
+    clear: both;
+}
+.wd-cpanel .ui-helper-clearfix:before, 
+.wd-cpanel .ui-helper-clearfix:after {
+    border-collapse: collapse;
+    content: "";
+    display: table;
+}
+.wd-cpanel .ui-helper-clearfix {
+  box-shadow: none;
+}
+#wd-Panel .ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+  height: auto;
+  min-height: auto;
+  margin: 0;
+  width: 300px;
+  background-color: #fff;
+}
+.wd-cpanel .ui-tabs-vertical {
+  position: relative;
+  display: flex;
+}
+.wd-cpanel .panel-logo {
+  padding: 2em;
+  text-align : center;
+  font-size : 1.5em;
+}
+.wd-cpanel .cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.wd-cpanel .cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+.wd-cpanel input.cmn-toggle-round + label {
+  padding: 2px;
+  width: 64px;
+  height: 16px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+#wd-Panel #switch-toggle-2 img {
+  margin-top: 2em;
+}
+#wd-Panel .tab-title {
+  margin-left: 2em;
+}
+.wd-cpanel input.cmn-toggle-round + label:before,
+.wd-cpanel input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+.wd-cpanel input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+.wd-cpanel #switch-toggle-1 {
+  visibility:hidden;
+}
+.wd-cpanel #switch-toggle-2 {
+  visibility:hidden;
+}
+.wd-cpanel #switch-toggle-3 {
+  visibility:hidden;
+}
+.wd-cpanel input.cmn-toggle-round + label:after {
+  width: 22px;
+  height: 22px;
+  top: -2px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+.wd-cpanel input.cmn-toggle-round:checked + label:before {
+  background-color: #1eca6b;
+}
+.wd-cpanel input.cmn-toggle-round:checked + label:after {
+  margin-left: 49px;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav {
+  float: left;
+  width: 12em;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li {
+  clear: left;
+  width: 100%;
+  text-align: center;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  margin: 0;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li a {
+  display: block;
+  font-size: 15px;
+  padding: 18px 35px;
+  text-align: left;
+  color: #88A4B9;
+  background-color: #F0F4F7;
+  border: 1px solid #D4D8DB;
+  margin: -1px;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in;
+     -moz-transition: all .2s ease-in;
+      -ms-transition: all .2s ease-in;
+       -o-transition: all .2s ease-in;
+          transition: all .2s ease-in;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li a .fa {
+  margin-right: 10px;
+  font-size: 17px;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a {
+  background-color: #FFF;
+  border-left: 6px solid #18AA36;
+  color: #000;
+  border-right: 0;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li:first-child a {
+  margin-top: 0;
+  border-top: 0;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a .fa {
+  color: #18AA36
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li a:hover {
+  border-left: 6px solid #18AA36;
+  color: #000;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 0;
+  padding-right: .1em;
+  border-right-width: 1px;
+  border-right-width: 1px;
+}
+.wd-cpanel .ui-tabs-vertical .ui-tabs-panel {
+  padding: 0;
+  margin-left: 1px;
+  min-height: auto;
+  float: left;
+  width: calc(100% - 300px);
+  background-color: #FFF;
+}
+#wd-Panel .form-table tr td:first-child {
+  background: none repeat scroll 0 0 #fff;
+  padding-right: 20px;
+  text-align: left;
+  padding-left: 40px;
+}
+#wd-Panel table td {
+  padding: 20px 10px;
+}
+.large-4.columns {
+  float: left;
+  width: 33%;
+}
+.option-item.tile {
+  background: #0000FF;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 10px;
+  padding-top: 8px;
+  text-align: center;
+}
+.option-item.medium {
+  margin: 0.5%;
+  width: 48.5%;
+  height: 110px !important;
+}
+@media only screen and (max-width: 1260px) {
+  .option-item.medium {
+    width: 48.3%;
+  }
+}  
+.option-item.big,
+.option-item.wide {
+  width: 99%;
+  margin: 0.5%;
+}
+.option-item.big {
+  height: 232px !important;
+}
+.option-item.wide {
+  height: 110px !important;
+}
+.option-item.tile .label,
+.option-item.tile select {
+  color:#FFF;
+  background-color: transparent;
+}
+.option-item.tile .label {
+  font-size: 14px;
+  padding: 3px 0 10px;
+  text-transform: uppercase;
+}
+.option-item.tile select {
+  margin-bottom: 8px;
+}
+.option-item.tile select,
+.option-item.tile .wp-color-result {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.option-item.tile .wp-picker-container {
+  display: inline-block;
+  line-height: 31px;
+  width: 120px;
+}
+
+.wd-cpanel .wd-save-btn-holder {
+  text-align: center;
+  clear: both;
+}
+.wd-cpanel .wd-save-btn-holder button,
+.wd-cpanel .wd-save-btn-holder button:hover,
+.wd-cpanel .wd-save-btn-holder button:active {
+  background: #00A8FF;
+  color: #fff;
+  padding: 7px 20px;
+  display: inline-block;
+  height: auto;
+  box-shadow: none;
+  border: 1px solid;
+  font-size: 1.2em;
+  border-radius: 2px;
+  transition: padding .3s ease;
+}
+.wd-cpanel .wd-save-btn-holder button:hover,
+.wd-cpanel .wd-save-btn-holder button:active {
+  padding: 7px 25px;
+  background: #029EEF;
+}
+/*
+ * ---------- checkbox menu position---------------
+ */
+.logo_position label,.ajzaa_footer_columns label {
+  height: 100px;
+  margin: 20px 20px 20px 0;
+  padding: 32px 50px;
+  width: 100px;
+  box-shadow: 0 0 3px 1px #aaa;
+}
+.logo_position label.label_selected, .logo_position label:hover {
+	box-shadow: 0 0 3px 1px #ff8700;
+}
+.logo_position input,.ajzaa_footer_columns  input{
+	display:none;
+}
+.ajzaa_position1 {
+	background: url("../images/menu1.jpg")
+}
+.ajzaa_position2 {
+	background: url("../images/menu2.jpg")
+}
+.ajzaa_position3 {
+	background: url("../images/menu4.jpg")
+}
+.ajzaa_position4{
+	background: url("../images/menu5.jpg")
+}
+.ajzaa_position5 {
+	background: url("../images/menu3.jpg")
+}
+.ajzaa_footer1 {
+	background: url("../images/footer1.jpg")
+}
+.ajzaa_footer2 {
+	background: url("../images/footer2.jpg")
+}
+.ajzaa_footer3 {
+	background: url("../images/footer3.jpg")
+}
+.ajzaa_footer4{
+	background: url("../images/footer4.jpg")
+}
+.ajzaa_footer5 {
+	background: url("../images/footer5.jpg")
+}
+.ajzaa_footer6 {
+	background: url("../images/footer6.jpg")
+}
+.label_selected {
+    border: 2px solid #00b2cf;
+}
+/*-----------multiple image--------------/*
+ * 
+ */
+ .wd-gallery-image-holder {
+   float: left;
+   margin-right: 15px;
+ }
+.page_position_hide {
+  display: none;
+}
+#ajzaa_meta_box_multiple_portfolio_image {
+  min-height: 257px;
+}
+.input-group-addon {
+  background: #eee none repeat scroll 0 0;
+  border: 1px solid;
+  padding: 2px;
+}
+.input-group-addon i{
+	padding: 2px;
+}
+.panel-logo {
+  background: url("../images/patern.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.panel-logo > h2 {
+  background: rgba(0, 0, 0, 0) url("../images/logo-ajzaa.png") no-repeat scroll 78px center;
+  color: #fff;
+  left: 0;
+  margin: 0;
+  padding: 97px 278px;
+  text-transform: uppercase;
+}
+.wd-cpanel .wrap {
+  margin: 0;
+}
+.wd-cpanel form {
+  margin: 0;
+}
+.wd-validate {
+  padding: 10px;
+  background-color: #fff;
+}
+.wd-validate.wp-core-ui .button {
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  color: #000;
+  font-size: 14px;
+  height: 38px;
+  padding: 0 32px;
+  transition: all 0.3s ease 0s;
+}
+.wd-validate.wp-core-ui span {
+  padding: 10px 9px 10px 0;
+}
+.wd-validate.wp-core-ui .button:hover {
+  background-color: #26d7de;
+  border-color: #fff;
+  color: #fff;
+}
+div#tabs ul li span {
+  background-color: #223e49;
+  box-shadow: 3px 0 0 0 rgba(52, 52, 52, 0.53);
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 18px;
+  padding: 17px;
+}
+div#tabs ul li:hover span, div#tabs ul li.ui-tabs-active span {
+  background-color: #0B8C93;
+}
+
+
+/*Import demo screenshot*/
+.import-demo-screenshot label {
+  height: 175px;
+  margin: 20px 20px 20px 0;
+  display: inline-block;
+  width: 250px;
+  box-shadow:0 0 3px 1px #aaa;
+}
+.import-demo-screenshot label.label_selected {
+  box-shadow: 0 0 3px 4px #ff8700;
+}
+.import-demo-screenshot input{
+  display:none;
+}
+.demo-1 {
+  background: url("../images/demo-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.demo-2 {
+  background: url("../images/demo-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.demo-3 {
+  background: url("../images/demo-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wpfooter {
+  bottom: auto;
+}
+td.first-td{
+  background: none !important;
+}
+
+#wd-Panel table td ul {
+
+}
+
+#wd-Panel table td ul li{
+  width: auto;
+  display: inline;
+  float: left;
+}
+
+#wd-Panel table td ul li label{
+  display: block;
+  width: auto;
+}
+
+#wd-Panel table td ul li select{
+  width: 140px;
+  border-radius: 5px;
+}
+#wd-Panel table td ul li input{
+  width: 140px;
+  border-radius: 5px;
+}
+#wd-Panel table td table{
+  clear: both;
+}
+.form-table tr td .colors_style{
+  height: 20px;
+  margin: 20px 20px 20px 0;
+  padding: 32px 50px;
+  width: 0px;
+  box-shadow: 0 0 3px 1px #aaa;
+  display: inline-block;
+}
+.form-table tr td .colors_style.style_1{
+  background-color: #ff0000;
+}
+.form-table tr td .colors_style.style_2{
+  background-color: #e17009;
+}
+.form-table tr td .colors_style.style_3{
+  background-color: #106EAA;
+}
+select{
+  text-transform: capitalize;
+}
+.large_input{
+  width: 500px;
+}
+.cookies-message {
+  height:90px;
+  display: none;
+}
+.open-cookies-msg {
+  display: inline-block;
+}
+.wd-cpanel .cookies-td {
+  position: relative;
+  height:133px;
+}
+.wd-cpanel label.ajzaa_footer_cookies_label {
+  display: inline-block;
+  margin-right: 10px;
+}
+.wd-cpanel input.ajzaa_footer_cookies_input {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slider_number {
+  display: none;
+}
+.slider_number.open {
+  display: block;
+}
+.socialmedia_wrapper .social_media
+input{
+  height: auto;
+}
+.socialmedia_wrapper .social_media label{
+}
+.socialmedia_wrapper .social_media{
+  padding: 10px 0;
+}
+.wp-core-ui .wd-cpanel .button{
+  background: #1ECA6B;
+  color: #fff;
+  padding: 8px 15px 9px;
+  border-bottom: 0;
+  box-shadow: none;
+  height: auto;
+  line-height: inherit;
+  display: inline-block;
+  width: auto;
+}
+.wp-core-ui .wd-cpanel .button a{
+  color: #fff;
+  font-weight: 300;
+}
+.wp-core-ui .wd-cpanel .bg_delete_button{
+  background: #FE6464;
+}
+.log_input{
+  width: 500px;
+}
+.wd-cpanel .social_label{
+  margin-right: 117px;
+  display: inline-block;
+}
+input[type=text], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea {
+  padding: 6px 15px;
+  margin: 0;
+}
+.wp-admin .wd-cpanel select {
+  padding: 5px 15px;
+  margin: 0;
+  height: auto;
+}
+#wd-Panel table td.ajzaa_footer_columns {
+  padding: 50px 10px;
+}
+
+.rs-update-notice-wrap {
+  display: none !important;
+}
