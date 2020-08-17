@@ -11,3 +11,25 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  ajzaa
 */
+
+.woocommerce .entry-summary .quantity .qty{
+    width: auto !important;
+    height: 100% !important
+}
+.woocommerce div.product form.cart{
+    display: flex;
+}
+.woocommerce div.product form.cart .afrfqbt_single_page{
+    background: #333;
+    border-radius: 0;
+    padding: 17px 40px;
+    margin-left: 30px;
+    color: white;
+    vertical-align: middle;
+    float: left;
+}
+.woocommerce div.product form.cart .afrfqbt_single_page:hover{
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
