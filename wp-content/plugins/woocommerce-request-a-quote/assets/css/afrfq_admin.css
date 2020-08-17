@@ -1,0 +1,277 @@
+.afrfq_admin_main { width: 100%; float: left; margin-top: 30px;}
+
+.afrfq_admin_main_left{ width: 22%; float: left }
+
+.afrfq_admin_main_right { width: 77%; float: left }
+
+.afrfq_admin_main label{ float: left; margin-top: 5px; }
+
+.all_cats { width: 97%; border: solid 1px #b6b1b1; border-radius: 4px; padding: 10px; float: left; }
+
+.par_cat { width: auto; padding: 5px; }
+
+.child_cat{ width: auto; padding:3px 15px; }
+
+.select_box_small{ width: 400px; }
+
+.notes { color: red; font-weight: bold; }
+
+.afrfq_admin_main_right input[type="number"] { height: 47px; padding-left: 10px; }
+
+#afrfq-rule-settings {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.postbox {
+	position: inherit;
+}
+
+.afrfq_admin_main .select2-container{ width: 100% !important; }
+
+#quteurr, #hpircetext, #c7form { display: none;}
+
+.afrfq_textarea{ margin-top: 20px; margin-bottom: 20px;}
+
+div#addify_settings_tabs {
+	width: 98.7%;
+	margin-top: 20px;
+	float: left;
+	background: #fff;
+}
+
+.addify_setting_tab_ulli {
+	width: 25%;
+	float: left;
+}
+
+.addify-logo img {
+	padding: 8px 0px;
+}
+.addify-logo {
+	background: #e8f6fe;
+	text-align: center;
+}
+
+.addify-logo h2 {
+	text-align: center;
+	padding-bottom: 30px;
+	margin: 0px;
+	color: #000;
+	font-size: 30px
+}
+
+.afrfq_input_class {
+	width: 50%;
+	
+	line-height: 1.75em;
+	padding: 10px !important;
+	margin-top: 10px;
+}
+
+/*  tabs */
+.ui-tabs.ui-tabs-vertical {
+	padding: 0;
+	width: 42em;
+}
+.ui-tabs.ui-tabs-vertical .ui-widget-header {
+	border: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+	margin: 0px;
+	background: #43525a;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	margin: 0.2em 0;
+	border-width: 1px 0 1px 1px;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+	display: block;
+	width: 100%;
+	padding: 12px 4px 8px 20px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+	cursor: pointer;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: 0.2em;
+	padding-bottom: 0;
+	background: #9b5c8f;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+	margin-bottom: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+	float: left;
+	width: 100%;
+	border-radius: 0;
+	position: relative;
+	left: -1px;
+}
+li.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active::before {
+	right: 0;
+	border: 9px solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #fff;
+	top: 50%;
+	margin-top: -8px;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a span {
+	padding-right: 20px;
+}
+li.ui-state-default.ui-corner-top.ui-state-hover {
+	background: #95be45;
+}
+
+.addify-tabs-content {
+	width: 72%;
+	float: right;
+	margin-right: 4px;
+	padding: 0px 20px;
+}
+.addify-top-content h1 {
+	padding: 0;
+	text-align: left;
+	color: #000;
+	line-height: 1.2em;
+	font-size: 2.0em;
+	font-weight: 600;
+}
+
+.addify-singletab h2 {
+	margin: 3em 0 2em;
+	padding: 8px 15px;
+	background-color: #f4f2f2;
+	line-height: 1.5;
+}
+
+table.addify-table-optoin {
+	width: 100%;
+	border-collapse: collapse;
+}
+tr.addify-option-field th {
+	width: 27% !important;
+	padding: 20px 60px 20px 0;
+}
+tr.addify-option-field td {
+	width: 70% !important;
+}
+.addify-option-field th .option-head h3 {
+	text-align: left;
+	margin: 8px 0px;
+}
+.addify-option-field th span.description p {
+	font-style: normal;
+	text-align: left;
+	font-weight: 100;
+}
+.addify-option-field td .addify-input-field {
+	width: auto;
+	background: rgba(204, 204, 204, 0.22);
+	line-height: 1.75em;
+	padding-left: 0.75em;
+}
+tr.addify-option-field {
+	border-bottom: 1px solid #E7E7E7;
+}
+
+p.submit{ float: right;}
+
+/*checkboxes*/
+#radios, #rad, #like_dislike, #ext_comment, #ext_email_noti {
+	position: relative;
+	z-index: 5;
+	background: #e6e6e6;
+	width: 200px;
+}
+#radios input[type="radio"],
+#rad input[type="radio"],
+#like_dislike input[type="radio"],
+#ext_comment input[type="radio"],
+#ext_email_noti input[type="radio"] {
+	display: none;
+}
+#bckgrnd, .labels,
+#radback, .radlab,
+#like_dislikeb, .extndc,
+#ext_commentb, .extcc,
+#emailb, .emailc {
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: -3px;
+	z-index: 2;
+	cursor: pointer;
+	outline:1px solid rgba(0, 0, 0, 0.1) !important
+}
+#bckgrnd, #radback, #like_dislikeb, #ext_commentb, #emailb {
+	background-color: #9b5c8f;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+#rad1:checked ~ #bckgrnd,
+#rad11:checked ~ #radback,
+#extld0:checked ~ #like_dislikeb,
+#extc0:checked ~ #ext_commentb,
+#extn1:checked ~ #emailb  {
+	transform: translateX(0);
+	transition: transform 0.2s ease-in-out;
+}
+#rad2:checked ~ #bckgrnd,
+#rad22:checked ~ #radback,
+#extld1:checked ~ #like_dislikeb,
+#extc1:checked ~ #ext_commentb,
+#extn2:checked ~ #emailb   {
+	transform: translateX(100px);
+	transition: transform 0.2s ease-in-out;
+}
+input.questionpermission:checked + .radlab,
+input.userfaq:checked + .labels,
+input.likespermission:checked + .extndc,
+input.commentapp:checked + .extcc,
+input.ext_notify_email:checked + .emailc {
+	color: white;
+}
+
+.quote_details{ width: 100%; float: left; margin-top: 20px;}
+
+.quotedata{ width: 100%; float: left; margin-top: 10px;}
+
+.quotedata label{ width: 150px; float: left; font-weight: bold; font-size: 14px;}
+
+.cusdetails{ width: 1000px; float: left; font-size: 13px;}
+
+.quotetable{ margin-top: 30px; float: left;}
+
+.fieldsdiv, .emailfieldsdiv, .companyfieldsdiv, .phonefieldsdiv, .filefieldsdiv, .messagefieldsdiv, .field1fieldsdiv, .field2fieldsdiv, .field3fieldsdiv{ display: none; }
+
+.namediv, .emaildiv, .companydiv, .phonediv, .filediv, .messagediv, .field1div, .field2div, .field3div { width: 98%; float: left;background:#f4f2f2;padding: 12px;font-weight: bold;cursor: pointer; margin-top: 15px;}
+
+.divleft{ float: left; }
+
+.devright { float: right; }
+
+.additional_h3{ float: left; margin-top: 20px; margin-bottom: 20px; }
+
+#afcustom_link{display: none;}

@@ -1,0 +1,149 @@
+#main-q-row{
+	padding-bottom: 2%;
+	width: 100%;
+	float: left;
+}
+#dropdown{
+	min-width: 250px !important;
+	display: none;
+	background-color: #f0f0f0;
+	position: absolute;
+	margin-top: 20px;
+	padding: 17px;
+}
+.colimg {
+	padding: 0%;
+	width: 25%;
+	float: left;
+}
+.colpro {
+	padding: 0%;
+	width: 60%;
+	float: left;
+	margin-left: 10px;
+}
+.coldel {
+	padding: 0%;
+	width: 10%;
+	float: left;
+}
+#view-quote {
+	text-align: center;
+	background-color: #1a1a1a;
+	color: white;
+	border-radius: unset;
+	border: 1px solid #1a1a1a;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px;
+}
+.main-btn-col{
+	margin-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#dropdownMenuButton {
+	cursor: pointer;
+}
+#quantity {
+	font-size: 10px !important ;
+}
+
+.scrollable-menu {
+	height: auto;
+	max-height: 300px;
+	overflow-x: hidden;
+}
+#delete-quote{
+	margin-top: 23%;
+	cursor: pointer;
+}
+#delete-quote:hover{
+	color: red;
+}
+#empty-message {
+
+	font-size: 15px;
+}
+
+.totalitems{ width: 158px; float: right; margin-left: 3px;}
+.dashiconsc{ width: auto; float: left; margin-top: 2px;}
+
+#quote-li{ float: right;
+	width: 200px;}
+
+.qrow{ padding-top: 5px; padding-bottom: 5px; border-bottom: solid 1px #ccc;}
+
+.view-quote-row{ margin-top: 15px !important;}
+
+.loader{ display: none;}
+
+.loader {
+	border: 10px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: spin 2s linear infinite;
+	position: absolute;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+#quantityfor{ float: left; height: 46px; margin-right: 10px; width: 50px;}
+
+.rfq_form_wrap div.row {
+
+	margin-bottom:5px;
+	padding:2px;
+}
+
+.af_quote_form{ width: 100%; float: left;}
+
+.form_row{ width: 100%; float: left; margin-top: 10px;}
+
+.form_row label{ width: 100%; float: left; font-weight: bold;}
+
+.form_row .form_row_input{ width: 60%; float: left; margin-top: 7px;}
+
+.afnonece{ color: red;}
+
+.successmsg{ color: green; font-size: 14px;}
+
+.errormsg{ color: red; font-size: 14px;}
+
+.woo_options { width: 100%; float: left; margin-top: 10px; }
+
+.woo_options_mini { width: 100%; float: left; margin-top: 10px; font-size: 12px; }
+
+.pronam { font-size: 14px; }
+
+.added_quote {
+	color:green;
+font-size: 14px;
+border: solid 1px;
+padding: 6px;
+margin-bottom: 20px;
+display: none;
+}
+
+.added_quote_pro {
+
+	color:green;
+font-size: 14px;
+border: solid 1px;
+padding: 6px;
+margin-top: 20px;
+display: none;
+}
+
+.frequired{ color: red; width: 100%; float: left; margin-bottom: 10px; }
+
+.af_allowed_types{ width: 100%; float: left; margin-top: 10px; font-size: 12px; }
+
+#afrfqerror{ color: red; margin-top: 10px; }
+
+
