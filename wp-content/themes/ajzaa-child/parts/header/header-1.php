@@ -169,7 +169,7 @@
                 <div class="row">
                     <?php if(function_exists('WC')) { ?>
                         <div class="product_cat hide-for-small">
-                            <a href="javascript:;" class="cats-btn collapse" data-dropdown="drop">Categorias
+                            <a href="javascript:;" class="cats-btn collapse" data-dropdown="drop">Categorías
                                 <span></span>
                             </a>
                             <?php
